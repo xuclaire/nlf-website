@@ -22,6 +22,31 @@ function Navbar() {
                   About
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/house_church">
+                  House Church
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/events">
+                  Events
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/classes">
+                  Classes
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/faq">
+                  FAQ
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/get_connected">
+                  Get Connected
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
