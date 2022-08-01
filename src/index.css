@@ -19,3 +19,27 @@ a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.349);
 }
+
+.leaf-outline {
+  position: relative;
+  width: 323.46px;
+  height: 335.86px;
+}
+
+.leaf-shadow {
+  position: absolute;
+  left: 0%;
+  right: 11.58%;
+  top: 8.6%;
+  bottom: 0%;
+  transform: rotate(-0.58deg);
+}
+
+.leaf {
+  position: absolute;
+  left: 4.04%;
+  right: 3.21%;
+  top: 2.92%;
+  bottom: 0.91%;
+  transform: rotate(-1.87deg);
+}
