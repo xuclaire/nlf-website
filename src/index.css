@@ -42,4 +42,6 @@ a:hover {
   top: 2.92%;
   bottom: 0.91%;
   transform: rotate(-1.87deg);
+  mask-image: url('./leaf.svg');
+  mask-repeat: no-repeat;
 }
