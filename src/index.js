@@ -12,21 +12,25 @@ import Classes from './pages/classes';
 import FAQ from './pages/faq';
 import GetConnected from './pages/get_connected';
 import Navbar from './pages/navbar';
+import Footer from './pages/footer/footer';
 
 export default function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/house_church" element={<HouseChurch />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/classes" element={<Classes />} />
-        <Route path="/faq" element={<FAQ />} />
-        <Route path="/get_connected" element={<GetConnected />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/house_church" element={<HouseChurch />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/classes" element={<Classes />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/get_connected" element={<GetConnected />} />
+        </Routes>
+      </Router>
+      <Footer />
+    </>
   );
 }
 ReactDOM.render(<App />, document.getElementById('root'));
