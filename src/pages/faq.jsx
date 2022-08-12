@@ -1,6 +1,7 @@
+/* eslint-disable */
 import React from 'react';
 import Faq from 'react-faq-component';
-import './faq_style.css';
+import '../faq_style.css';
 
 const generalQuestions = {
   title: 'General',

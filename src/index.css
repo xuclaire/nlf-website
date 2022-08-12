@@ -8,8 +8,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: Palatino;
 }
 a {
   text-decoration: none;
@@ -18,4 +17,9 @@ a {
 a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.349);
+}
+
+iframe {
+  display: block;
+  margin: auto;
 }
