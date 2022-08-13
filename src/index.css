@@ -28,9 +28,9 @@ a:hover {
 
 .leaf-shadow {
   position: absolute;
-  left: 29%;
+  left: 0%;
   right: 11.58%;
-  top: 10%;
+  top: 8.6%;
   bottom: 0%;
   transform: rotate(-0.58deg);
 }
@@ -48,5 +48,4 @@ a:hover {
   max-height: 450px;
   min-height: 325px;
   min-width: 350px;
-  mask-position: center;
 }
