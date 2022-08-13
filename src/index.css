@@ -8,8 +8,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: Palatino;
 }
 a {
   text-decoration: none;
@@ -48,4 +47,9 @@ a:hover {
   max-height: 450px;
   min-height: 325px;
   min-width: 350px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
 }
