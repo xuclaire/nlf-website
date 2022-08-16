@@ -13,7 +13,7 @@ function LeafImageContainerFaceRight(props) {
 }
 
 LeafImageContainerFaceRight.propTypes = {
-  photo: PropTypes.oneOf(['img', 'svg']).isRequired,
+  photo: PropTypes.oneOf([ 'img', 'svg' ]).isRequired,
 };
 
 export default LeafImageContainerFaceRight;

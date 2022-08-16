@@ -1,40 +1,51 @@
 import React from 'react';
 import logo from '../../images/logo.svg';
-import {
-  Box, Container, Column, FooterLink, Text, Column1, Row, Container2, Button,
-} from './footer_styles';
+import { Box, Container, Column, FooterLink, Text, Column1, Row, Button, IconGroup } from './footer_styles';
+import fbIcon from './icons/facebook.svg';
+import instaIcon from './icons/instagram.svg';
+import remindIcon from './icons/remind.svg';
+import youtubeIcon from './icons/youtube.svg';
 
 function Footer() {
   return (
     <Box>
-      <Container2>
-        <Column1>
-          <img src={logo} height={55} alt="Logo" />
-        </Column1>
-        <Column>
-          <Text>7777 Fairbanks North Houston Rd</Text>
-          <Text>Houston, TX 77040</Text>
-          <Text>Phone: 713.896.7755</Text>
-        </Column>
-        <Container>
-          <Row>
-            <Column>
-              <FooterLink href="#">Home</FooterLink>
-              <FooterLink href="#">What We Do</FooterLink>
-              <FooterLink href="#">House Church</FooterLink>
-            </Column>
-            <Column>
-              <FooterLink href="#">Events</FooterLink>
-              <FooterLink href="#">Classes</FooterLink>
-              <FooterLink href="#">FAQ</FooterLink>
-            </Column>
-            <Column>
-              <Button>Get Connected</Button>
-            </Column>
-          </Row>
-        </Container>
-      </Container2>
+      <Container>
+        <Row>
+          <Column1>
+            <img src={logo} height={55} alt="Logo" />
+          </Column1>
+          <Column>
+            <Text>7777 Fairbanks North Houston Rd</Text>
+            <Text>Houston, TX 77040</Text>
+            <Text>Phone: 713.896.7755</Text>
+          </Column>
+          <Column>
+            <FooterLink href="/">Home</FooterLink>
+            <FooterLink href="#">What We Do</FooterLink>
+            <FooterLink href="/house_church">House Church</FooterLink>
+          </Column>
+          <Column>
+            <FooterLink href="/events">Events</FooterLink>
+            <FooterLink href="/classes">Classes</FooterLink>
+            <FooterLink href="/faq">FAQ</FooterLink>
+          </Column>
+          <Column>
+            <Button href="/get_connected">Get Connected</Button>
+            <IconGroup>
+              <a href="https://www.facebook.com/groups/2725833467432826" target="_blank" rel="noreferrer">
+                <img src={fbIcon} height={30} alt="Logo" />
+              </a>
+              <img src={instaIcon} height={30} alt="Logo" />
+              <img src={remindIcon} height={24} alt="Logo" />
+              <a href="https://www.youtube.com/c/nlfhtx" target="_blank" rel="noreferrer">
+                <img src={youtubeIcon} height={30} alt="Logo" />
+              </a>
+            </IconGroup>
+          </Column>
+        </Row>
+      </Container>
     </Box>
   );
 }
+
 export default Footer;

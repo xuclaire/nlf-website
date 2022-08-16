@@ -1,0 +1,27 @@
+@mixin type($font-size, $line-height: $font-size) {
+  $fontScale: map-get($typeScale, $font-size);
+  $lineHeightScale: map-get($typeScale, $line-height);
+  font-size: px-to-rem(map-get($fontScale, 'font-size') * 1px);
+  line-height: px-to-rem(map-get($lineHeightScale, 'line-height') * 1px);
+}
+
+@mixin heading($level) {
+  @if $level == 1 {
+    // H1
+    @include type(3);
+  } @else if $level == 2 {
+    @include type(4);
+  } @else if $level == 3 {
+    @include type(5);
+  } @else if $level == 4 {
+    @include type(6);
+  } @else if $level == 5 {
+    @include type(7);
+  } @else if $level == 6 {
+    @include type(8);
+  } @else if $level == 7 {
+    @include type(9);
+  } @else {
+    @warn 'Unknown value: valid values are 1-7';
+  }
+}

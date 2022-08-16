@@ -13,6 +13,7 @@ import FAQ from './pages/faq';
 import GetConnected from './pages/get_connected';
 import Navbar from './pages/navbar';
 import Footer from './pages/footer/footer';
+// import { FooterContainer } from './containers/footer'
 
 export default function App() {
   return (
