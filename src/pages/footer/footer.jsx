@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from '../../images/logo.svg';
-import { Box, Container, Column, FooterLink, Text, Column1, Row, Button, IconGroup } from './footer_styles';
+import {
+  Box, Container, Column, FooterLink, Text, Column1, Row, Button, IconGroup,
+} from './footer_styles';
 import fbIcon from './icons/facebook.svg';
 import instaIcon from './icons/instagram.svg';
 import remindIcon from './icons/remind.svg';

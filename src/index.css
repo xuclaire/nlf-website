@@ -46,8 +46,3 @@ a:hover {
   min-height: 325px;
   min-width: 350px;
 }
-
-iframe {
-  display: block;
-  margin: auto;
-}
