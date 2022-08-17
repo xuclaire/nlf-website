@@ -1,0 +1,44 @@
+.form {
+  background-color: #3A4520;
+}
+
+.top {
+  background-color: #F8F3E3;
+  font-family: Palatino;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center; 
+  padding-bottom: 50px;
+  padding-top: 50px;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center; 
+  padding-bottom: 20px;
+}
+
+.top .text {
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: left;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  padding-right: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+}

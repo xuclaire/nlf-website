@@ -10,7 +10,7 @@ import HouseChurch from './pages/house_church';
 import Events from './pages/events';
 import Classes from './pages/classes';
 import FAQ from './pages/faq';
-import GetConnected from './pages/get_connected';
+import GetConnected from './pages/get_connected/get_connected';
 import Navbar from './pages/navbar';
 import Footer from './pages/footer/footer';
 // import { FooterContainer } from './containers/footer'
