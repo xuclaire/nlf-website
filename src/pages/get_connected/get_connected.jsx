@@ -10,7 +10,7 @@ function GetConnected() {
       <div className = "top">
         <div className = "text">
           <div className = "header">
-              <h1>Get Connected</h1>
+            <h1>Get Connected</h1>
             <img src={swirl}></img>
           </div>
           <p>
@@ -23,7 +23,7 @@ function GetConnected() {
         />
       </div>
       <div className="form">
-        <iframe title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdlbNjZfjqrhlnbwri8Yskf4HWr0Yj_L3HDGtVMWfV11-TnJg/viewform?embedded=true" width="640" height="2747" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+        <iframe title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdlbNjZfjqrhlnbwri8Yskf4HWr0Yj_L3HDGtVMWfV11-TnJg/viewform?embedded=true" width="640" height="1000" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
       </div>
     </code>
   );
