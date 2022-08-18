@@ -39,6 +39,8 @@ p {
 }
 
 iframe {
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: block;
   margin: auto;
 }
