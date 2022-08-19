@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -10,23 +10,28 @@ import HouseChurch from './pages/house_church';
 import Events from './pages/events';
 import Classes from './pages/classes';
 import FAQ from './pages/faq';
-import GetConnected from './pages/get_connected';
-import Navbar from './pages/navbar';
+import GetConnected from './pages/get_connected/get_connected';
+import Navbar from './pages/navbar/navbar';
+import Footer from './pages/footer/footer';
+// import { FooterContainer } from './containers/footer'
 
 export default function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/house_church" element={<HouseChurch />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/classes" element={<Classes />} />
-        <Route path="/faq" element={<FAQ />} />
-        <Route path="/get_connected" element={<GetConnected />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/house_church" element={<HouseChurch />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/classes" element={<Classes />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/get_connected" element={<GetConnected />} />
+        </Routes>
+      </Router>
+      <Footer />
+    </>
   );
 }
 ReactDOM.render(<App />, document.getElementById('root'));

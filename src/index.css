@@ -1,15 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Palatino;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: Palatino;
 }
 a {
   text-decoration: none;
@@ -18,4 +15,34 @@ a {
 a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.349);
+}
+
+.leaf-outline {
+  position: relative;
+  width: 323.46px;
+  height: 335.86px;
+}
+
+.leaf-shadow {
+  position: absolute;
+  left: 0%;
+  right: 11.58%;
+  top: 8.6%;
+  bottom: 0%;
+  transform: rotate(-0.58deg);
+}
+
+.leaf {
+  position: absolute;
+  left: 4.04%;
+  right: 3.21%;
+  top: 2.92%;
+  bottom: 0.91%;
+  transform: rotate(-1.87deg);
+  mask-image: url('./leaf.svg');
+  mask-repeat: no-repeat;
+  max-width: 500px;
+  max-height: 450px;
+  min-height: 325px;
+  min-width: 350px;
 }
