@@ -1,7 +1,7 @@
 import React from 'react';
-import navbarLogo from '../../images/navbar_logo.svg';
-import getConnectedButton from '../../images/getconnected_button.svg';
-import { Navigation, Navbar, NavLink, Logo } from './navbar_styles';
+import navbarLogo from '../images/navbar_logo.svg';
+import getConnectedButton from '../images/getconnected_button.svg';
+import { Navigation, Navbar, NavLink, Subgroup, SubLink, Logo } from './navbar/navbar_styles';
 
 
 function navbar() {
@@ -13,9 +13,27 @@ function navbar() {
       <Navbar>
         <NavLink to="/about" activeStyle >
           About Us
+          <Subgroup>
+            <SubLink to="/what_we_do" activeStyle>
+              What We Do
+            </SubLink>
+            <br />
+            <SubLink to="/leadership" activeStyle>
+              Leadership
+            </SubLink>
+          </Subgroup>
         </NavLink>
         <NavLink to="/house_church" activeStyle>
           House Church
+          <Subgroup>
+            <SubLink to="/overview" activeStyle>
+              Overview
+            </SubLink>
+            <br />
+            <SubLink to="Summer House Church" activeStyle>
+              Summer House Church
+            </SubLink>
+          </Subgroup>
         </NavLink>
         <NavLink to="/events" activeStyle>
           Events
