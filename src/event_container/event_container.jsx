@@ -1,32 +1,37 @@
-/* eslint-disable */
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-
-const Box = styled.div`
-  background: #D9D9D9;
-  padding: 30px 10px;
-  border-radius: 0px 50px;
-  height: 222px;
-  width: 222px;
-`;
+// import { Text, StyleSheet } from "react-native";
 
 function EventContainer(props) {
-  const { photo } = props.src;
+  const { photo } = props;
+  const { event } = props;
+  const { details } = props;
+  const { description } = props;
+
   return (
-    <Box style={{
-      BackgroundImage: 'url({photo})',
-    }}>
-    </Box>
+    <div className="event-container-shell" alt="event-container-shell">
+      <img className="img-box" src={photo} alt="img-box" />
+      <p className="event-title-details" alt="event-title-details">
+        <span className="event-title" alt="event-title">
+          {event}
+        </span>
+        <br />
+        <span className="event-details" alt="event-details">
+          {details}
+        </span>
+      </p>
+      <p className="event-description" alt="event-description">
+        {description}
+      </p>
+    </div>
   );
 }
 
 EventContainer.propTypes = {
-  src: PropTypes.string,
-};
-
-EventContainer.defaultProps = {
-  src: 'https://www.streamscheme.com/wp-content/uploads/2022/02/sadge-600.png',
+  photo: PropTypes.oneOf(['img', 'svg']).isRequired,
+  event: PropTypes.string.isRequired,
+  details: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default EventContainer;
