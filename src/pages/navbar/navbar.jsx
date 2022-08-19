@@ -30,7 +30,7 @@ function navbar() {
               Overview
             </SubLink>
             <br />
-            <SubLink to="Summer House Church" activeStyle>
+            <SubLink to="summer_house_church" activeStyle>
               Summer House Church
             </SubLink>
           </Subgroup>
