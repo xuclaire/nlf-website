@@ -1,7 +1,7 @@
 import React from 'react';
 import navbarLogo from '../../images/navbar_logo.svg';
 import getConnectedButton from '../../images/getconnected_button.svg';
-import { Navigation, Navbar, NavLink, Subgroup, SubLink, Logo } from './navbar_styles';
+import { Navigation, Navbar, NavLink, Maingroup, Subgroup, SubLink, Logo } from './navbar_styles';
 
 
 function navbar() {
@@ -11,7 +11,7 @@ function navbar() {
         <img src={navbarLogo} height={60} alt="Logo" />
       </Logo>
       <Navbar>
-        <NavLink to="/about" activeStyle >
+        <Maingroup >
           About Us
           <Subgroup>
             <SubLink to="/what_we_do" activeStyle>
@@ -22,19 +22,19 @@ function navbar() {
               Leadership
             </SubLink>
           </Subgroup>
-        </NavLink>
-        <NavLink to="/house_church" activeStyle>
+        </Maingroup>
+        <Maingroup>
           House Church
           <Subgroup>
             <SubLink to="/overview" activeStyle>
               Overview
             </SubLink>
             <br />
-            <SubLink to="summer_house_church" activeStyle>
+            <SubLink to="/summer_house_church" activeStyle>
               Summer House Church
             </SubLink>
           </Subgroup>
-        </NavLink>
+        </Maingroup>
         <NavLink to="/events" activeStyle>
           Events
         </NavLink>
