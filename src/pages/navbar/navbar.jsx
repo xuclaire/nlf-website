@@ -1,7 +1,7 @@
 import React from 'react';
-import navbarLogo from '../images/navbar_logo.svg';
-import getConnectedButton from '../images/getconnected_button.svg';
-import { Navigation, Navbar, NavLink, Subgroup, SubLink, Logo } from './navbar/navbar_styles';
+import navbarLogo from '../../images/navbar_logo.svg';
+import getConnectedButton from '../../images/getconnected_button.svg';
+import { Navigation, Navbar, NavLink, Subgroup, SubLink, Logo } from './navbar_styles';
 
 
 function navbar() {
