@@ -39,13 +39,56 @@ a:hover {
   top: 2.92%;
   bottom: 0.91%;
   transform: rotate(-1.87deg);
-  mask-image: url('./leaf.svg');
+  mask-image: url('./shared-components/images/leaf.svg');
   mask-repeat: no-repeat;
+
   max-width: 500px;
   max-height: 450px;
   min-height: 325px;
   min-width: 350px;
 }
+
+ .leaf-outline-left {
+  position: relative;
+  width: 323.46px;
+  height: 335.86px;
+}
+
+.leaf-shadow-left {
+  position: absolute;
+  height: 306.9999980183728px;
+  width: 320.99999815392385px;
+  left: 323.53369140625px;
+  top: 28.95703125px;
+
+  left: 4.04%;
+  right: 3.21%;
+  top: 8.0%;
+  bottom: 0%;
+}
+
+
+.leaf-left {
+  height: 322.999984495624px;
+  width: 299.99998559965076px;
+  left: 310.4658203125px;
+  top: 9.87109375px;
+  border-radius: 0px;
+  
+  position: absolute;
+  left: 0%;
+  right: 11.58%;
+  top: 2.92%;
+  bottom: 0.91%;
+  mask-image: url('./shared-components/images/leafFaceLeft.svg');
+  mask-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 500px;
+  max-height: 450px;
+  min-height: 325px;
+  min-width: 350px;
+}
+
 .event-container-shell {
   position: relative;
   width: 325px;
