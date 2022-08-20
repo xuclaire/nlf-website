@@ -1,0 +1,68 @@
+.section1 {
+  background-color: #F8F3E3;
+  font-family: Palatino;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center; 
+  padding-bottom: 50px;
+  padding-top: 50px;     
+}
+
+.section1 .header1 {
+  margin-left: 12%;
+  margin-right: 2%;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.section2 {
+  background-color: #3A4520;
+  font-family: Palatino;
+  color: #F8F3E3;
+  display: flex;
+  justify-content: start;
+  align-items: center; 
+  padding-bottom: 50px;
+  padding-top: 50px;     
+}
+
+.section2 .header2 {
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.section2 .leaf2 {
+  margin-left: 6%;
+}
+
+.section3 {
+  background-color: #F8F3E3;
+  font-family: Palatino;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center; 
+  padding-bottom: 50px;
+  padding-top: 50px;     
+}
+
+.section3 .header3 {
+  margin-left: 12%;
+  margin-right: 2%;
+  text-align: left;
+  line-height: 1.5;
+}
+
+button {
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.section3 .ridebutton {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+}
