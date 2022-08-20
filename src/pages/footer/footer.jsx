@@ -7,6 +7,7 @@ import fbIcon from './icons/facebook.svg';
 import instaIcon from './icons/instagram.svg';
 import remindIcon from './icons/remind.svg';
 import youtubeIcon from './icons/youtube.svg';
+import button from './icons/footer_button.svg';
 
 function Footer() {
   return (
@@ -32,7 +33,9 @@ function Footer() {
             <FooterLink href="/faq">FAQ</FooterLink>
           </Column>
           <Column>
-            <Button href="/get_connected">Get Connected</Button>
+            <a href="/get_connected">
+              <img src={button}/>
+            </a>
             <IconGroup>
               <a href="https://www.facebook.com/groups/2725833467432826" target="_blank" rel="noreferrer">
                 <img src={fbIcon} height={30} alt="Logo" />
