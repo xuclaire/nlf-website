@@ -13,6 +13,8 @@ import FAQ from './pages/faq';
 import GetConnected from './pages/get_connected/get_connected';
 import Navbar from './pages/navbar/navbar';
 import Footer from './pages/footer/footer';
+import WhatWeDo from './pages/what_we_do/what_we_do';
+import SummerHC from './pages/summer_hc/summer_hc';
 // import { FooterContainer } from './containers/footer'
 
 export default function App() {
@@ -23,7 +25,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/what_we_do" element={<WhatWeDo />} />
           <Route path="/house_church" element={<HouseChurch />} />
+          <Route path="/summer_house_church" element={<SummerHC />} />
           <Route path="/events" element={<Events />} />
           <Route path="/classes" element={<Classes />} />
           <Route path="/faq" element={<FAQ />} />
