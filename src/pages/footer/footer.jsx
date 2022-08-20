@@ -24,7 +24,7 @@ function Footer() {
           </Column>
           <Column>
             <FooterLink href="/">Home</FooterLink>
-            <FooterLink href="#">What We Do</FooterLink>
+            <FooterLink href="/what_we_do">What We Do</FooterLink>
             <FooterLink href="/house_church">House Church</FooterLink>
           </Column>
           <Column>

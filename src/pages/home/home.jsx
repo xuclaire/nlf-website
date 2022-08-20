@@ -26,7 +26,9 @@ function Home() {
             <br></br>
             you to learn more about us!
           </p>
-          <button>About Us</button>
+          <a href="/what_we_do">
+            <button>About Us</button>
+          </a>
         </div>
         <LeafImageContainerFaceRight photo={img} />
       </div>
@@ -35,16 +37,19 @@ function Home() {
           img={housechurch}
           description="We make disciples and model life with Christ through house church."
           button="Learn about House Church"
+          link="/overview"
         />
         <HomeCard
           img={getInvolved}
           description="Get connected to a representative to learn more about the ministry."
           button="Get Connected"
+          link="/get_connected"
         />
         <HomeCard
           img={ride}
           description="We'll arrange rides for you to church on Sunday for corporate worship."
           button="Sign-up for a Ride to Church"
+          link="/home"
         />
       </div>
       <div className="dark_green_container">
@@ -91,9 +96,9 @@ function Home() {
           />
           <EventContainer photo={event1} event="College Retreat" details="Feb 24-26| Retreat Center" description="Lorem ipsum" />
         </div>
-        <button href="/events" className="button">
-          Check out our events!
-        </button>
+        <a href="events">
+          <button className="button">Check out our events!</button>
+        </a>
       </div>
     </>
   );
