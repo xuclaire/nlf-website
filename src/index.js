@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
-import Home from './pages/home';
+import Home from './pages/home/home';
 import AboutUs from './pages/about_us';
 import HouseChurch from './pages/house_church';
 import Events from './pages/events';

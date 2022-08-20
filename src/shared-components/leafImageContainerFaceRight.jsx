@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import LeafShadowImage from '../leafShadow.svg';
+import LeafShadowImage from './images/leafShadow.svg';
 
 function LeafImageContainerFaceRight(props) {
   const { photo } = props;
