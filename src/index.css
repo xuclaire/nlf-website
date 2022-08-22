@@ -39,13 +39,56 @@ a:hover {
   top: 2.92%;
   bottom: 0.91%;
   transform: rotate(-1.87deg);
-  mask-image: url('./leaf.svg');
+  mask-image: url('./shared-components/images/leaf.svg');
   mask-repeat: no-repeat;
+
   max-width: 500px;
   max-height: 450px;
   min-height: 325px;
   min-width: 350px;
 }
+
+ .leaf-outline-left {
+  position: relative;
+  width: 323.46px;
+  height: 335.86px;
+}
+
+.leaf-shadow-left {
+  position: absolute;
+  height: 306.9999980183728px;
+  width: 320.99999815392385px;
+  left: 323.53369140625px;
+  top: 28.95703125px;
+
+  left: 4.04%;
+  right: 3.21%;
+  top: 8.0%;
+  bottom: 0%;
+}
+
+
+.leaf-left {
+  height: 322.999984495624px;
+  width: 299.99998559965076px;
+  left: 310.4658203125px;
+  top: 9.87109375px;
+  border-radius: 0px;
+  
+  position: absolute;
+  left: 0%;
+  right: 11.58%;
+  top: 2.92%;
+  bottom: 0.91%;
+  mask-image: url('./shared-components/images/leafFaceLeft.svg');
+  mask-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 500px;
+  max-height: 450px;
+  min-height: 325px;
+  min-width: 350px;
+}
+
 .event-container-shell {
   position: relative;
   width: 325px;
@@ -81,7 +124,7 @@ a:hover {
   font-family: 'Palatino';
   font-style: normal;
   font-weight: 700;
-
+  text-align: left;
   color: #000000;
 
   height: 60px;
@@ -118,6 +161,109 @@ a:hover {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
+  text-align: left;
 
   color: #000000;
+}
+
+.pastor-card-shell {
+  position: relative;
+  width: 337px;
+  height: 422px;
+}
+
+.pastor-img {
+  width: 337px;
+  height: 337px;
+  
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 20.14%;
+  
+  box-sizing: border-box;
+  object-fit: cover;
+
+  background: #D9D9D9;
+  border: 8px solid #7F9948;
+  border-radius: 0px 50px;
+}
+
+.pastor-text {
+  position: absolute;
+  left: 4.45%;
+  right: 0%;
+  top: 82.7%;
+  bottom: 0%;
+
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  
+  color: #F8F3E3;
+}
+
+.pastor-name {
+  position: absolute;
+  font-weight: 700;
+}
+
+.pastor-role {
+  position: absolute;
+}
+
+.shepherd-profile-shell {
+  position: relative;
+  width: 222px;
+  height: 278px;
+}
+
+.shepherd-img {
+  height: 222px;
+  width: 222px;
+  
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 20.14%;
+
+  object-fit: cover;
+  background: #D9D9D9;
+  border-radius: 0px 50px;
+}
+
+.shepherd-text {
+  position: absolute;
+  left: 4.5%;
+  right: 0%;
+  top: 82.73%;
+  bottom: 0%;
+
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-align: left;
+  color: #000000;
+}
+
+.shepherd-name {
+  position: absolute;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.shepherd-house-church {
+  position: absolute;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
 }
