@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/home/home';
 import AboutUs from './pages/about_us';
-import HouseChurch from './pages/house_church';
+import Overview from './pages/hc_overview/overview';
 import Events from './pages/events';
 import Classes from './pages/classes';
 import FAQ from './pages/faq';
@@ -26,7 +26,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/what_we_do" element={<WhatWeDo />} />
-          <Route path="/house_church" element={<HouseChurch />} />
+          <Route path="/overview" element={<Overview />} />
           <Route path="/summer_house_church" element={<SummerHC />} />
           <Route path="/events" element={<Events />} />
           <Route path="/classes" element={<Classes />} />

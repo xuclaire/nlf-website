@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styles.css';
+
 import LeafImageContainerFaceRight from '../../shared-components/leafImageContainerFaceRight';
 import img from '../../images/home_group.jpg';
-import '../styles.css';
 import heart from '../../images/home_heart.svg';
 import EventContainer from '../../event_container/event_container';
 import event1 from '../../images/event1.jpg';
@@ -21,7 +22,7 @@ function Home() {
               New Life Fellowship <br></br>College Ministry
             </h1>
           </div>
-          <p>
+          <p className="header_details">
             Welcome! Join us for fellowship, fun, and Jesus! We are <br></br>a Houston-based college ministry and would love for{' '}
             <br></br>
             you to learn more about us!
