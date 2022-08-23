@@ -1,8 +1,10 @@
 import React from 'react';
 import './what_we_do_styles.css';
 import pic1 from '../../images/pic1.png';
+import pic2 from '../../images/pic2.png';
 import pic3 from '../../images/pic3.png';
 
+import LeafImageContainerFaceLeft from '../../shared-components/leafImageContainerFaceLeft';
 import LeafImageContainerFaceRight from '../../shared-components/leafImageContainerFaceRight';
 
 function WhatWeDo() {
@@ -20,8 +22,8 @@ function WhatWeDo() {
       </div>
       <div className="section2">
         <div className="leaf2">
-        <LeafImageContainerFaceRight
-          photo={pic1} 
+        <LeafImageContainerFaceLeft
+          photo={pic2} 
         />
         </div>
         <div className="header2">

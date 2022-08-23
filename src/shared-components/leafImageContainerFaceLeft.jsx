@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import LeafShadowImage from './images/leafShadowFaceLeft.svg';
 
-function LeafImageContainerFaceRight(props) {
+function LeafImageContainerFaceLeft(props) {
   const { photo } = props;
   return (
     <div className="leaf-outline-left">
@@ -12,8 +12,8 @@ function LeafImageContainerFaceRight(props) {
   );
 }
 
-LeafImageContainerFaceRight.propTypes = {
+LeafImageContainerFaceLeft.propTypes = {
   photo: PropTypes.oneOf([ 'img', 'svg' ]).isRequired,
 };
 
-export default LeafImageContainerFaceRight;
+export default LeafImageContainerFaceLeft;
