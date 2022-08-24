@@ -14,6 +14,7 @@ import GetConnected from './pages/get_connected/get_connected';
 import Navbar from './pages/navbar/navbar';
 import Footer from './pages/footer/footer';
 import WhatWeDo from './pages/what_we_do/what_we_do';
+import Leadership from './pages/leadership/leadership';
 import SummerHC from './pages/summer_hc/summer_hc';
 import Anatolia from './pages/hc_pages/anatolia/anatolia';
 import CentralJapan from './pages/hc_pages/central japan/central_japan';
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/what_we_do" element={<WhatWeDo />} />
           <Route path="/overview" element={<Overview />} />
+          <Route path="/leadership" element={<Leadership />} />
           <Route path="/summer_house_church" element={<SummerHC />} />
           <Route path="/events" element={<Events />} />
           <Route path="/classes" element={<Classes />} />
