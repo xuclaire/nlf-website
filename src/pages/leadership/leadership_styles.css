@@ -38,6 +38,7 @@
     flex-direction: column;
     justify-content: space-around;
     background: #3A4520;
+    align-items: center;
 }
 
 .meet-the-pastors-title {
