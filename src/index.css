@@ -405,6 +405,6 @@ a:hover {
     box-sizing: border-box;
     object-fit: cover;
     
-    border: 8px solid #7F9948;
+    border: 0px solid #7F9948;
     border-radius: 0px 100px;
 }
