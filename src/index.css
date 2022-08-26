@@ -390,3 +390,21 @@ a:hover {
   line-height: 24px;
   font-weight: 400;
 }
+
+.class-container-shell {
+    position: relative;
+    height: 360px;
+    width: 650px;
+}
+
+.class-img-box {
+    position: absolute;
+    height: 360px;
+    width: 650px;
+
+    box-sizing: border-box;
+    object-fit: cover;
+    
+    border: 8px solid #7F9948;
+    border-radius: 0px 100px;
+}
