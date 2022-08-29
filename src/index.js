@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './pages/home/home';
 import AboutUs from './pages/about_us';
 import Overview from './pages/hc_overview/overview';
-import Events from './pages/events';
+import Events from './pages/events/events';
 import Classes from './pages/classes/classes';
 import FAQ from './pages/faq';
 import GetConnected from './pages/get_connected/get_connected';
