@@ -40,7 +40,7 @@
 }
 
 
-.event_header {
+/* .event_header {
   display: grid;
   grid-template-columns: 0.5fr 900px;
   align-items: center;
@@ -51,7 +51,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 150px;
-}
+} */
 
 .row {
   justify-content: center;

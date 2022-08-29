@@ -4,19 +4,13 @@ import './home.css';
 import LeafImageContainerFaceRight from '../../shared-components/leafImageContainerFaceRight';
 import img from '../../images/home_group.jpg';
 import heart from '../../images/home_heart.svg';
-import EventContainer from '../../event_container/event_container';
-import wavy from '../../images/wavy.svg';
 import HomeCard from './home_card';
 import housechurch from '../../images/house-church.svg';
 import getInvolved from '../../images/get-involved.svg';
 import ride from '../../images/ride.svg';
 
-import corporate from './events/corporate.jpg';
-import aya from './events/aya.jpg';
-import emp from './events/emp.jpg';
-import hop from './events/hop.png';
-import retreat from './events/retreat.JPG';
-import jam from './events/jam.jpg';
+import EventGrid from '../../event_container/events_grid.jsx';
+
 
 function Home() {
   return (
@@ -72,53 +66,7 @@ function Home() {
           link="/home"
         />
       </div>
-      <div className="beige_container">
-        <div className="event_header">
-          <img src={wavy} height={50} />
-          <h3>Events</h3>
-        </div>
-        <div className="event_grid">
-          <EventContainer
-            photo={corporate}
-            event="Corporate Worship"
-            details="Sun | 9-11 am | NLF"
-            description="Join the New Life community for Sunday worship through contemporary praise music and a positive, practical message."
-          />
-          <EventContainer
-            photo={emp}
-            event="EMP: Early Morning Prayer"
-            details="Mon-Sat | 7-8 am | Rice"
-            description="Start your day with 45 minutes of individual meditation and prayer, followed by a group-led prayer and Bible reading."
-          />
-          <EventContainer
-            photo={hop}
-            event="HOP: House of Prayer"
-            details="1st Wed of Month | 7-9 pm | NLF"
-            description="HOP is a time of praise, hearing testimonies, listening to devotionals, praying together, and partaking in Christ’s communion.  "
-          />
-          <EventContainer
-            photo={aya}
-            event="AYA: As You Are"
-            details="2nd Wed of Month | 7:15-10 pm | Rice"
-            description="Gather at Rice’s Duncan PDR to praise God and and listen to relevant messages about college student life based on the Scriptures."
-          />
-          <EventContainer
-            photo={jam}
-            event="JAM: Jesus And Me"
-            details="4th Wed of Month | 7-9 pm | U of H"
-            description="JAM is a time for people to come together to praise and worship God in an informal manner. Request your favorite songs, and let’s jam! "
-          />
-          <EventContainer
-            photo={retreat}
-            event="College Retreat"
-            details="Feb 24-26| Retreat Center"
-            description="Get connected with other college students and other New Life  members for a time of fellowship and feeling renewed in Christ!"
-          />
-        </div>
-        <a href="events">
-          <button className="button">Check out our events!</button>
-        </a>
-      </div>
+      <EventGrid />
     </>
   );
 }
