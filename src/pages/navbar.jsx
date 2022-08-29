@@ -1,58 +1,37 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import navbarLogo from '../images/navbar_logo.svg';
+import getConnectedButton from '../images/getconnected_button.svg';
+import { Navigation, Navbar, NavLink, Logo } from './navbar/navbar_styles';
 
-function Navbar() {
+
+function navbar() {
   return (
-    <div className="navigation">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <div className="container">
-          <NavLink className="navbar-brand" to="/">
-            NewLifeFellowship College Ministry
-          </NavLink>
-          <div>
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/">
-                  Home
-                  <span className="sr-only">(current)</span>
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
-                  About
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/house_church">
-                  House Church
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/events">
-                  Events
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/classes">
-                  Classes
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/faq">
-                  FAQ
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/get_connected">
-                  Get Connected
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <Navigation>
+      <Logo to="/">
+        <img src={navbarLogo} height={60} alt="Logo" />
+      </Logo>
+      <Navbar>
+        <NavLink to="/about" activeStyle >
+          About Us
+        </NavLink>
+        <NavLink to="/house_church" activeStyle>
+          House Church
+        </NavLink>
+        <NavLink to="/events" activeStyle>
+          Events
+        </NavLink>
+        <NavLink to="/classes" activeStyle>
+          Classes
+        </NavLink>
+        <NavLink to="/faq" activeStyle>
+          FAQ
+        </NavLink>
+        <NavLink to="/get_connected" activeStyle>
+          <img src={getConnectedButton} height={35} alt="gcButton" />
+        </NavLink>
+      </Navbar >
+    </Navigation >
   );
 }
 
-export default Navbar;
+export default navbar;

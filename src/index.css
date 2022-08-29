@@ -1,15 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Palatino;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: Palatino;
 }
 a {
   text-decoration: none;
@@ -18,4 +15,396 @@ a {
 a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.349);
+}
+
+.leaf-outline {
+  position: relative;
+  width: 323.46px;
+  height: 335.86px;
+}
+
+.leaf-shadow {
+  position: absolute;
+  left: 0%;
+  right: 11.58%;
+  top: 8.6%;
+  bottom: 0%;
+  transform: rotate(-0.58deg);
+}
+
+.leaf {
+  position: absolute;
+  left: 4.04%;
+  right: 3.21%;
+  top: 2.92%;
+  bottom: 0.91%;
+  transform: rotate(-1.87deg);
+  mask-image: url('./shared-components/images/leaf.svg');
+  mask-repeat: no-repeat;
+
+  max-width: 500px;
+  max-height: 450px;
+  min-height: 325px;
+  min-width: 350px;
+}
+
+ .leaf-outline-left {
+  position: relative;
+  width: 323.46px;
+  height: 335.86px;
+}
+
+.leaf-shadow-left {
+  position: absolute;
+  height: 306.9999980183728px;
+  width: 320.99999815392385px;
+  left: 323.53369140625px;
+  top: 28.95703125px;
+
+  left: 4.04%;
+  right: 3.21%;
+  top: 8.0%;
+  bottom: 0%;
+}
+
+
+.leaf-left {
+  height: 322.999984495624px;
+  width: 299.99998559965076px;
+  left: 310.4658203125px;
+  top: 9.87109375px;
+  border-radius: 0px;
+  
+  position: absolute;
+  left: 0%;
+  right: 11.58%;
+  top: 2.92%;
+  bottom: 0.91%;
+  mask-image: url('./shared-components/images/leafFaceLeft.svg');
+  mask-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 500px;
+  max-height: 450px;
+  min-height: 325px;
+  min-width: 350px;
+}
+
+.event-container-shell {
+  position: relative;
+  width: 325px;
+  height: 524px;
+}
+.image-container-shell {
+  position: relative;
+  width: 222px;
+  height: 278px;
+}
+
+.img-box {
+  position: absolute;
+  width: 325px;
+  height: 301px;
+  left: 2px;
+  
+  box-sizing: border-box;
+
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 42.56%;
+  object-fit: cover;
+
+  background: #D9D9D9;
+  border: 8px solid #3A4520;
+  border-radius: 0px 100px;
+}
+.img-box2 {
+  position: absolute;
+  width: 222px;
+  height: 222px;
+  left: 2px;
+  
+  box-sizing: border-box;
+
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 42.56%;
+  object-fit: cover;
+
+  background: #D9D9D9;
+  border: 8px solid #3A4520;
+  border-radius: 0px 100px;
+}
+
+.event-title-details {
+  position: absolute;
+  left: 4.62%;
+  right: -8%;
+  top: 61.26%;
+  bottom: 27.29%;
+
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  color: #000000;
+
+  height: 60px;
+  width: 336px;
+  left: 15px;
+  top: 321px;
+}
+
+.image-title-details {
+  position: absolute;
+  left: 4.62%;
+  right: -8%;
+  top: 61.26%;
+  bottom: 27.29%;
+
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  font-size: 28px;
+
+  color: white;
+
+  height: 48px;
+  width: 212px;
+  left: 15px;
+  top: 220px;
+}
+
+.event-title {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.event-details {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+
+.image-details {
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+  font-weight: 400;
+}
+
+.event-description {
+  position: absolute;
+  
+  height: 131px;
+  width: 301px;
+  left: 15px;
+  top: 398px;
+
+  left: 4.62%;
+  right: 2.77%;
+  top: 75.95%;
+  bottom: -0.95%;
+
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+
+  color: #000000;
+}
+
+.pastor-card-shell {
+  position: relative;
+  width: 337px;
+  height: 422px;
+}
+
+.pastor-img {
+  width: 337px;
+  height: 337px;
+  
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 20.14%;
+  
+  box-sizing: border-box;
+  object-fit: cover;
+
+  background: #D9D9D9;
+  border: 8px solid #7F9948;
+  border-radius: 0px 50px;
+}
+
+.pastor-text {
+  position: absolute;
+  left: 4.45%;
+  right: 0%;
+  top: 82.7%;
+  bottom: 0%;
+
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  
+  color: #F8F3E3;
+}
+
+.pastor-name {
+  position: absolute;
+  font-weight: 700;
+}
+
+.pastor-role {
+  position: absolute;
+}
+
+.shepherd-profile-shell {
+  position: relative;
+  width: 222px;
+  height: 278px;
+}
+
+.shepherd-img {
+  height: 222px;
+  width: 222px;
+  
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 20.14%;
+
+  object-fit: cover;
+  background: #D9D9D9;
+  border-radius: 0px 50px;
+}
+
+.shepherd-text {
+  position: absolute;
+  left: 4.5%;
+  right: 0%;
+  top: 82.73%;
+  bottom: 0%;
+
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-align: left;
+  color: #000000;
+}
+
+.image-description {
+  position: absolute;
+  
+  height: 131px;
+  width: 301px;
+  left: 15px;
+  top: 398px;
+
+  left: 4.62%;
+  right: 2.77%;
+  top: 75.95%;
+  bottom: -0.95%;
+
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.testimony-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.testimony-card {
+  object-fit: cover;
+  width: 294px;
+  height: 274px;
+}
+
+.testimony-p {
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  margin: auto;
+
+  font-family: Palatino;
+  color: #F8F3E3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.testimony-h {
+  position: absolute;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  margin: auto;
+
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #F8F3E3;
+}
+
+.shepherd-name {
+  position: absolute;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.shepherd-house-church {
+  position: absolute;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.class-container-shell {
+    position: relative;
+    height: 360px;
+    width: 650px;
+}
+
+.class-img-box {
+    position: absolute;
+    height: 360px;
+    width: 650px;
+
+    box-sizing: border-box;
+    object-fit: cover;
+    
+    border: 0px solid #7F9948;
+    border-radius: 0px 100px;
 }

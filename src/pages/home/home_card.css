@@ -1,0 +1,38 @@
+.container-shell {
+  position: relative;
+  width: 348px;
+  height: 518px;
+}
+
+.card {
+  position: relative;
+  height: 250px;
+  width: 300px;
+
+  background: #FFFCF2;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.button {
+  width: 260px;
+  color: white;
+  background-color: #7F9948;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-family: Palatino;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #3A4520;
+  text-align: center;
+}

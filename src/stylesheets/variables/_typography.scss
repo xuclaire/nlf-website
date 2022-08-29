@@ -1,0 +1,33 @@
+$font-family: 'Palatino';
+$base-font-size: 18px;
+
+$typeScale: (
+  1: (
+    font-size: 64,
+    line-height: 72,
+  ),
+  2: (
+    font-size: 48,
+    line-height: 60,
+  ),
+  3: (
+    font-size: 36,
+    line-height: 36,
+  ),
+  4: (
+    font-size: 28,
+    line-height: 36,
+  ),
+  5: (
+    font-size: 24,
+    line-height: 36,
+  ),
+  6: (
+    font-size: 18,
+    line-height: 24,
+  ),
+  7: (
+    font-size: 18,
+    line-height: 24,
+  )
+);
