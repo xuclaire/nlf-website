@@ -61,17 +61,17 @@ export default function Overview() {
       <div className="housechurch-container">
         <p className="housechurch-h">House Churches</p>
         <div className="housechurch_grid">
-          <HousechurchCard photo={Anatolia} HC="Anatolia" description="" />
-          <HousechurchCard photo={CentralJapan} HC="Central Japan" description="" />
-          <HousechurchCard photo={CMU} HC="CMU" description="" />
-          <HousechurchCard photo={Laos} HC="Laos" description="" />
-          <HousechurchCard photo={Manado} HC="Manado" description="" />
-          <HousechurchCard photo={Mongolia} HC="Mongolia" description="" />
-          <HousechurchCard photo={SA} HC="U of H" description="" />
-          <HousechurchCard photo={NA} HC="North Africa" description="" />
-          <HousechurchCard photo={Phnom} HC="Phnom Penh" description="" />
-          <HousechurchCard photo={Siem} HC="Siem Reap" description="" />
-          <HousechurchCard photo={Tunisia} HC="Tunisia" description="" />
+          <HousechurchCard photo={Anatolia} HC="Anatolia" link="/anatolia" />
+          <HousechurchCard photo={CentralJapan} HC="Central Japan" link="/central_japan" />
+          <HousechurchCard photo={CMU} HC="CMU" link="/cmu" />
+          <HousechurchCard photo={Laos} HC="Laos" link="/laos" />
+          <HousechurchCard photo={Manado} HC="Manado" link="/manado" />
+          <HousechurchCard photo={Mongolia} HC="Mongolia" link="/mongolia" />
+          <HousechurchCard photo={SA} HC="U of H" link="/uofh" />
+          <HousechurchCard photo={NA} HC="North Africa" link="north_africa" />
+          <HousechurchCard photo={Phnom} HC="Phnom Penh" link="phnom_penh" />
+          <HousechurchCard photo={Siem} HC="Siem Reap" link="siem_reap" />
+          <HousechurchCard photo={Tunisia} HC="Tunisia" link="tunisia" />
         </div>
       </div>
       <div className="beige_container">
