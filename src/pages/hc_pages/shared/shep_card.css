@@ -1,0 +1,46 @@
+.shep-image {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 2px;
+  
+  box-sizing: border-box;
+  object-fit: cover;
+
+  background: #D9D9D9;
+  border-radius: 0px 50px;
+  display: block;
+}
+
+.shep-card-shell {
+  display: grid;
+  position: relative;
+  grid-template-columns: 90px 100px;
+  gap: 60%;
+  width: auto;
+}
+
+.shep-description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+}
+
+.shep-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: black;
+}
+
+.shep-details {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: black;
+}
+
+.shep-contacts {
+  display: flex;
+}

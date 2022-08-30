@@ -4,12 +4,14 @@ import PropTypes from 'prop-types';
 function HousechurchCard(props) {
   const { photo } = props;
   const { HC } = props;
-  const { description } = props;
+  const { link } = props;
 
   return (
     <div className="hc-card-shell" alt="event-container-shell">
       <img className="img-box2" src={photo} alt="img-box" />
-      <button className="hc-button">{HC}</button>
+      <a href={link}>
+        <button className="hc-button">{HC}</button>
+      </a>
     </div>
   );
 }
