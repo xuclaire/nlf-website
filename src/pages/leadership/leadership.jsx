@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './leadership_styles.css';
 import LeafImageContainerFaceRight from '../../shared-components/leafImageContainerFaceRight';
 import LeadershipTopPic from '../../images/leadership_title.jpeg';
 import PastorCard from '../../shared-components/pastorCard';
+import PastorModal from '../../shared-components/pastorModal';
 import PastorEricPic from '../../images/pastor_eric_bio.jpeg';
 import PastorSangPic from '../../images/pastor_sang_bio.jpeg';
 import PastorJustyPic from '../../images/pastor_justy_bio.jpeg';
@@ -14,8 +15,8 @@ import ChristinePic from '../../images/christine_lee.jpeg';
 import CiciPic from '../../images/cici_du.jpeg';
 import ClairePic from '../../images/claire_xu.jpeg';
 import DamianPic from '../../images/damian_andaya.jpeg';
-// import EnochPic from '../../images/enoch_chen.jpeg';
-// import EricPic from '../../images/eric_ou.jpeg';
+import EnochPic from '../../images/enoch_chen.png';
+import EricPic from '../../images/eric_ou.jpg';
 import EstherPic from '../../images/esther_lee.jpeg';
 import GeorgePic from '../../images/george_hung.jpeg';
 import JoshPic from '../../images/josh_ni.jpeg';
@@ -23,6 +24,8 @@ import KristinePic from '../../images/kristine_yuan.jpeg';
 import PeterPic from '../../images/peter_chung.jpeg';
 
 function Leadership() {
+  const [showEricModal, setShowEricModal] = useState(false);
+  
   return (
     <>
       <div className="title-section">
@@ -37,7 +40,8 @@ function Leadership() {
       <div className="meet-the-pastors-section">
           <h2 className="meet-the-pastors-title">Meet the Pastors</h2>
           <div className="pastor-bios">
-            <PastorCard
+            <PastorCard 
+                onClick={() => { setShowEricModal(true);}} 
                 photo={PastorEricPic}
                 name={"Pastor Eric Shin"}
                 role={"Senior Pastor"}
@@ -53,11 +57,20 @@ function Leadership() {
                 role={"College Pastor"}
             />
           </div>
+          <div className="pastor-modals">
+            <PastorModal
+                visibility={this.state.showEricModal}
+                photo={PastorEricPic}
+                name={"Pastor Eric"}
+                role={"Senior Pastor"}
+                bio={"As the Senior Pastor at New Life, Eric Shin has founded the church together with about twenty members on August 10, 1997. He grew up in New York City and was saved at the age of eighteen at a youth conference. After experiencing joys and challenges of following Christ and serving in His local church during high school and college years, he left behind aspirations of being a lawyer in his hometown and followed God’s call to seminary. // Pastor Eric (affectionately known as PE) pastored a church in Boston for several years before coming to New Life with his lovely wife Lynette and their three children, Enoch, Caleb, and Josiah."}
+            />
+          </div>
       </div>
       <div className="meet-the-college-volunteers-section">
         <div className="meet-the-college-volunteers-header">
             <h2 className="college-volunteers-title">Meet the College Volunteers</h2>
-            <body className="college-volunteers-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</body>
+            <body className="college-volunteers-description">College volunteers are adult members of New Life who support and relieve ministry burdens from the shepherds, ranging from event planning to even being a big brother or sister to college students.</body>
         </div>
         <img className="college-volunteers-pic"
             src={CollegeVolunteers}
@@ -66,7 +79,7 @@ function Leadership() {
       <div className="meet-the-shepherds-section">
         <div className="meet-the-shepherds-header">
             <h2 className="shepherds-title">Meet the Shepherds</h2>
-            <body className="shepherds-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</body>
+            <body className="shepherds-description">Shepherds are the spiritual leaders of the house church who will lead and guide the house church until graduation.  They are servant leaders who are intentionally growing to be more like the heart of Jesus.</body>
         </div>
         <div className="shepherd-profiles-center">
             <div className="shepherd-profiles">
@@ -96,14 +109,14 @@ function Leadership() {
                     house_church={'North Africa'}
                 />
                 <ShepherdProfile
-                    photo={RebekahPic}
+                    photo={EnochPic}
                     name={"Enoch Chen"}
                     house_church={'Central Japan'}
                 />
                 <ShepherdProfile
-                    photo={RebekahPic}
+                    photo={EricPic}
                     name={"Eric Ou"}
-                    house_church={'North Africa'}
+                    house_church={'TBD'}
                 />
                 <ShepherdProfile
                     photo={EstherPic}
@@ -134,6 +147,11 @@ function Leadership() {
                     photo={RebekahPic}
                     name={"Rebekah Heo"}
                     house_church={'CMU'}
+                />
+                <ShepherdProfile
+                    photo={RebekahPic}
+                    name={"Susan Do"}
+                    house_church={'TBD'}
                 />
             </div>
         </div>
