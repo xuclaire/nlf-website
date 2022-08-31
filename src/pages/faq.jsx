@@ -93,7 +93,7 @@ function faq() {
           {generalQuestions.map((item, i) => (
             <Item>
               <Title onClick={() => GeneralToggle(i)}>
-                <h2>{item.question}</h2>
+                {item.question}
                 <Span>{hcSelected == i ? <img src={arrow} /> : <img src={arrow} />}</Span>
               </Title>
               <div className={generalSelected == i ? 'content show' : 'content'}>
@@ -111,7 +111,7 @@ function faq() {
           {hcQuestions.map((item, j) => (
             <HcItem>
               <HcTitle onClick={() => HcToggle(j)}>
-                <h2>{item.question}</h2>
+                {item.question}
                 <Span>{hcSelected == j ? <img src={arrow} /> : <img src={arrow} />}</Span>
               </HcTitle>
               <div className={hcSelected == j ? 'content show' : 'content'}>
@@ -129,7 +129,7 @@ function faq() {
           {churchQuestions.map((item, k) => (
             <Item>
               <Title onClick={() => ChurchToggle(k)}>
-                <h2>{item.question}</h2>
+                {item.question}
                 <Span>{hcSelected == k ? <img src={arrow} /> : <img src={arrow} />}</Span>
               </Title>
               <div className={churchSelected == k ? 'content show' : 'content'}>
