@@ -284,3 +284,76 @@ a:hover {
 .house-church-text {
     align-self: center;
 }
+
+.pastor-modal-shell {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    width: 1067px;
+    height: 346px;
+
+    background: #3A4520;
+    border-radius: 0px 50px;
+}
+
+.pastor-img-modal {
+    box-sizing: border-box;
+
+    position: relative;
+    height: 300px;
+    width: 300px;
+    flex-grow: 1;
+    margin-right: 24px;
+
+    border: 8px solid #7F9948;
+    border-radius: 0px 50px;
+}
+
+.pastor-text-modal {
+    overflow: scroll;
+    font-family: 'Palatino';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 24px;
+
+    color: #F8F3E3;
+    flex-direction: column;
+}
+
+.pastor-name-modal {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.pastor-role-modal {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.pastor-bio-modal {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.x-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Arial';
+    left: 96%;
+    top: 4%;
+    font-size: 30px;
+    font-weight: 150;
+    line-height: 24px;
+}

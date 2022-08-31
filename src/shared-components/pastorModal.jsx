@@ -9,7 +9,7 @@ function PastorModal(props) {
 
   return (
     <div className="pastor-modal-shell" alt="pastor-modal-shell">
-        {/* <img className="pastor-img-modal" src={photo} alt="pastor-img-modal" />
+        <img className="pastor-img-modal" src={photo} alt="pastor-img-modal" />
         <div className="pastor-text-modal" alt="pastor-text-modal">
             <span className="pastor-name-modal" alt="pastor-name-modal">
                 {name}
@@ -22,7 +22,10 @@ function PastorModal(props) {
             <span className="pastor-bio-modal" alt="pastor-bio-modal">
                 {bio}
             </span>
-        </div> */}
+        </div>
+        <div className="x-button" alt="x-button">
+            x
+        </div>
     </div>
   );
 }
