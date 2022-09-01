@@ -24,7 +24,6 @@ import KristinePic from '../../images/kristine_yuan.jpeg';
 import PeterPic from '../../images/peter_chung.jpeg';
 
 function Leadership() {
-  const [showEricModal, setShowEricModal] = useState(false);
   
   return (
     <>
@@ -40,8 +39,7 @@ function Leadership() {
       <div className="meet-the-pastors-section">
           <h2 className="meet-the-pastors-title">Meet the Pastors</h2>
           <div className="pastor-bios">
-            <PastorCard 
-                onClick={() => { setShowEricModal(true);}} 
+            <PastorCard
                 photo={PastorEricPic}
                 name={"Pastor Eric Shin"}
                 role={"Senior Pastor"}
@@ -58,13 +56,6 @@ function Leadership() {
             />
           </div>
           <div className="pastor-modals">
-            <PastorModal
-                visibility={this.state.showEricModal}
-                photo={PastorEricPic}
-                name={"Pastor Eric"}
-                role={"Senior Pastor"}
-                bio={"As the Senior Pastor at New Life, Eric Shin has founded the church together with about twenty members on August 10, 1997. He grew up in New York City and was saved at the age of eighteen at a youth conference. After experiencing joys and challenges of following Christ and serving in His local church during high school and college years, he left behind aspirations of being a lawyer in his hometown and followed God’s call to seminary. // Pastor Eric (affectionately known as PE) pastored a church in Boston for several years before coming to New Life with his lovely wife Lynette and their three children, Enoch, Caleb, and Josiah."}
-            />
           </div>
       </div>
       <div className="meet-the-college-volunteers-section">
