@@ -13,7 +13,7 @@ import wavy from '../images/wavy.svg';
 
 export default function EventsGrid() {
   return (
-    <div className="beige_container">
+    <div className="events_grid">
       <div className="event_header">
         <img src={wavy} height={50} />
         <h3>Events</h3>
@@ -52,13 +52,10 @@ export default function EventsGrid() {
         <EventContainer
           photo={retreat}
           event="College Retreat"
-          details="Feb 24-26| Retreat Center"
+          details="Feb 24-26 | Retreat Center"
           description="Get connected with other college students and other New Life  members for a time of fellowship and feeling renewed in Christ!"
         />
       </div>
-      <a href="events">
-        <button className="button">Check out our events!</button>
-      </a>
     </div>
   );
 }

@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 0.5fr 900px;
   align-items: center;
-  column-gap: 100px;
 }
 
 .event_grid {

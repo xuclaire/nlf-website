@@ -66,7 +66,12 @@ function Home() {
           link="/home"
         />
       </div>
-      <EventGrid />
+      <div className="beige_container">
+        <EventGrid />
+        <a href="events">
+          <button className="button">Check out our events!</button>
+        </a>
+      </div>
     </>
   );
 }
