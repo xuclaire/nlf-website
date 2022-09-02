@@ -3,7 +3,9 @@ import React from 'react';
 import { useState } from 'react';
 import './faq_style.css'
 import arrow from '../../images/next.svg'
-import { FaqPage, Span, Pagehead, Accordion, HcCategoryHeader, HcTitle, HcItem, HouseChurch, NewLife, Item, General, Title, CategoryHeaders } from './faq_styles';
+
+import { FaqPage, Span, Pagehead, Accordion, HcCategoryHeader, HcTitle, HcItem, HouseChurch, NewLife, Item, General, Title, CategoryHeaders } from './faq_styles.jsx';
+
 
 
 const generalQuestions = [
