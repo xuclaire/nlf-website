@@ -40,13 +40,16 @@
   display: grid;
   grid-template-columns: 0.5fr 900px;
   align-items: center;
-  column-gap: 100px;
 }
 
 .event_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 150px;
+}
+
+.calendar_embed {
+  padding: 20px 0;
 }
 
 .row {

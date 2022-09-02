@@ -27,10 +27,12 @@ function Events() {
         </div>
         <LeafImageContainerFaceRight photo={img} />
       </div>
-      <div className="calendar_embed" style={{ height: '500px' }}>
+      <div className="calendar_embed" style={{ height: '650px'}}>
         <ReactEmbeddedGoogleCalendar publicUrl={url} />
       </div>
-      <EventGrid />
+      <div className="beige_container">
+        <EventGrid />
+      </div>
     </>
   );
 }
