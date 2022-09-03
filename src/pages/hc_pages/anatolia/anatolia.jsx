@@ -15,13 +15,14 @@ import photo9 from './photos/Anatolia9.jpeg';
 import photo10 from './photos/Anatolia10.jpg';
 import photo11 from './photos/Anatolia11.jpg';
 import photo12 from './photos/Anatolia12.jpg';
+import main from './photos/main.jpg';
 
 
 export default function Anatolia() {
   return (
     <>
       <Header
-        photo={photo1}
+        photo={main}
         HCname="Anatolia House Church"
         description="Our members, except one or two (including the shepherd herself),
       are among the kindest people you can find on the earth. Not only will you love

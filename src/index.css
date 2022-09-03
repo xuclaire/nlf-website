@@ -82,6 +82,7 @@ a:hover {
   bottom: 0.91%;
   mask-image: url('./shared-components/images/leafFaceLeft.svg');
   mask-repeat: no-repeat;
+  mask-position: center;
   object-fit: cover;
   max-width: 500px;
   max-height: 450px;
