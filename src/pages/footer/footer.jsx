@@ -1,8 +1,6 @@
 import React from 'react';
 import logo from '../../images/logo.svg';
-import {
-  Box, Container, Column, FooterLink, Text, Column1, Row, Button, IconGroup,
-} from './footer_styles';
+import { Box, Container, Column, FooterLink, Text, Column1, Row, Button, IconGroup } from './footer_styles';
 import fbIcon from './icons/facebook.svg';
 import instaIcon from './icons/instagram.svg';
 import remindIcon from './icons/remind.svg';
@@ -34,13 +32,15 @@ function Footer() {
           </Column>
           <Column>
             <a href="/get_connected">
-              <img src={button}/>
+              <img src={button} />
             </a>
             <IconGroup>
               <a href="https://www.facebook.com/groups/2725833467432826" target="_blank" rel="noreferrer">
                 <img src={fbIcon} height={30} alt="Logo" />
               </a>
-              <img src={instaIcon} height={30} alt="Logo" />
+              <a href="https://www.instagram.com/nlfcollegeministry/" target="_blank" rel="noreferrer">
+                <img src={instaIcon} height={30} alt="Logo" />
+              </a>
               <img src={remindIcon} height={24} alt="Logo" />
               <a href="https://www.youtube.com/c/nlfhtx" target="_blank" rel="noreferrer">
                 <img src={youtubeIcon} height={30} alt="Logo" />

@@ -22,11 +22,11 @@ export default function Manado() {
       <Header
         photo={photo1}
         HCname="Manado House Church"
-        description="We are the corner and middle pieces of a brownie... soft
-        and chewy and sweet and a little crunchy… we have some extra special
-        ingredients like marshmallows and spam chunks too but it somehow tastes
-        so good by the love of Christ, and so Manado is the sweetest hc of them
-        all…"
+        description="If you want to fight for our rights, DANCE and make TikToks,
+        get front row, VIP access to THE best piano recitals, go on random tangents..
+        then continue reading! We're like a soft, sweet, and kinda crunchy brownie with some
+        extra special ingredients like marshmallows and spam chunks too but it somehow tastes
+        so good by the love of Christ! So come join Manado HC!"
         shepPhoto1={shep}
         shepName1="Christine Lee"
         shepSchool1="Rice 2023"

@@ -11,17 +11,16 @@ import photo5 from './photos/NAHC5.jpg';
 import photo6 from './photos/NAHC6.jpg';
 import photo7 from './photos/NAHC7.jpg';
 import photo8 from './photos/NAHC8.jpg';
-// import photo9 from './photos/NAHC9.jpg';
-// import photo10 from './photos/NAHC10.jpg';
-// import photo11 from './photos/NAHC11.jpg';
-// import photo12 from './photos/NAHC12.jpg';
-// import main from './photos/main.jpg';
+import photo9 from './photos/NorthAfrica9.jpg';
+import photo10 from './photos/NorthAfrica10.jpeg';
+import photo11 from './photos/NorthAfrica11.jpeg';
+import photo12 from './photos/NorthAfrica12.JPG';
 
 export default function NorthAfrica() {
   return (
     <>
       <Header
-        photo={photo2}
+        photo={photo9}
         HCname="North Africa House Church"
         description="We consist of 6 members, 1 female and 5 males
         We are a family full of fun, quirky, and unique (very unique) personalities.
@@ -45,10 +44,10 @@ export default function NorthAfrica() {
         photo6={photo6}
         photo7={photo7}
         photo8={photo8}
-        // photo9={photo9}
-        // photo10={photo10}
-        // photo11={photo11}
-        // photo12={photo12}
+        photo9={photo9}
+        photo10={photo10}
+        photo11={photo11}
+        photo12={photo12}
       />
     </>
   );
