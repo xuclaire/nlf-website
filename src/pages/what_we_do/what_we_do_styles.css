@@ -46,7 +46,8 @@
   justify-content: start;
   align-items: center; 
   padding-bottom: 50px;
-  padding-top: 50px;     
+  padding-top: 50px;    
+  text-align: left; 
 }
 
 .section3 .header3 {
@@ -59,6 +60,10 @@
 button {
   margin-right: 10px;
   justify-content: space-between;
+}
+
+p {
+  text-align: left;
 }
 
 .section3 .ridebutton {

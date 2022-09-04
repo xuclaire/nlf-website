@@ -13,17 +13,17 @@
   color: black;
   display: flex;
   justify-content: start;
-  align-items: center; 
+  align-items: left; 
   padding-bottom: 50px;
   padding-top: 50px;
-  
 }
 
 .top .text {
-  margin-left: 12%;
+  margin-left: 0%;
   margin-right: 2%;
   text-align: left;
   line-height: 1.5;
+  display: inline-block;
 }
 
 h1 {
