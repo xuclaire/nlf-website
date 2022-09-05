@@ -14,13 +14,18 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .overview-header-text {
   margin-left: 12%;
   margin-right: 12%;
-  text-align: left;
+  text-align: center;
   line-height: 1.5;
+}
+
+.overview-header-text p {
+  text-align: center;
 }
 
 .dark_green_container {

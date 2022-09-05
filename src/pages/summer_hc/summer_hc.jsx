@@ -10,7 +10,7 @@ function SummerHC() {
         <div className = "text">
           <h1>Summer House Church</h1>
           <p>For 10 weeks throughout the summer, college students meet in assigned <br></br>house churches in New Life’s church building.While many college students <br></br>will leave Houston for the summer, some will stay, and many students <br></br>from outside of Houston will return home and will need a house church <br></br>community to stay spiritually healthy. Summer college house <br></br>churches are carefully assigned every year and are composed of a mixture of <br></br>rising freshman to recently graduated seniors.  College students can expect 10 weeks <br></br>of great fellowship, worship, spiritual growth, and fun! </p>
-          <button>Register for Summer House Church</button>
+          <a href='https://nlfhouston.churchcenter.com/registrations'><button>Register for Summer House Church</button></a>
         </div>
         <LeafImageContainerFaceRight
           photo={pic} 

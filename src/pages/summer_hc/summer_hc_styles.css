@@ -19,11 +19,10 @@
 }
 
 .top .text {
-  margin-left: 0%;
+  margin-left: -8%;
   margin-right: 2%;
   text-align: left;
   line-height: 1.5;
-  display: inline-block;
 }
 
 h1 {
