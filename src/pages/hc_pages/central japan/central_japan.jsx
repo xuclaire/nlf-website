@@ -12,13 +12,16 @@ import photo5 from './photos/CentralJapan5.jpeg';
 import photo6 from './photos/CentralJapan6.jpeg';
 import photo7 from './photos/CentralJapan7.jpeg';
 import photo8 from './photos/CentralJapan8.jpeg';
-import photo12 from './photos/CentralJapanMain.jpeg';
+import photo9 from './photos/CentralJapan9.jpeg';
+import photo10 from './photos/CentralJapan10.jpeg';
+import photo12 from './photos/CentralJapan12.jpeg';
+import main from './photos/CentralJapanMain.jpeg';
 
 export default function CentralJapan() {
   return (
     <>
       <Header
-        photo={photo12}
+        photo={main}
         HCname="Central Japan House Church"
         description="Lots of us study Computer Science, but we actually have representation
           for each of the academic schools (Engineering, Social Sciences, etc.)!
@@ -42,6 +45,9 @@ export default function CentralJapan() {
         photo6={photo6}
         photo7={photo7}
         photo8={photo8}
+        photo9={photo9}
+        photo10={photo10}
+        photo11={main}
         photo12={photo12}
       />
     </>

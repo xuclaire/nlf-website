@@ -5,7 +5,6 @@ import './faq_style.css'
 import arrow from '../../images/next.svg'
 import { FaqPage, Span, Pagehead, Accordion, HcCategoryHeader, HcTitle, HcItem, HouseChurch, NewLife, Item, General, Title, CategoryHeaders } from './faq_styles.jsx';
 
-
 const generalQuestions = [
   {
     question: "How do I stay updated about New Life announcements?",
