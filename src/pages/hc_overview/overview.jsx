@@ -77,9 +77,9 @@ export default function Overview() {
       <div className="beige_container">
         <h4>Testimonies</h4>
         <div className="testimony_grid">
-          <TestimonyCard text="New Life has been life changing for me! I came in freshman year and saw how the people in our ministry pour out 110% of their love to everyone… a real reflection of Jesus! I also love my House Church (my second fam… go SIEM REAP!), as it’s a place where we can share anything— judgement free. Laughs, tears, struggles, joys… life isn’t easy… but everyone is so vulnerable and supportive in prayer!" name="-Josh Ni (Siem Reap HC)" />
+          <TestimonyCard text="New Life has been life changing for me! I came in freshman year and saw how the people in our ministry pour out 110% of their love to everyone… a real reflection of Jesus! My house church (SIEM REAP) is so vulnerable and supportive in prayer!" name="-Josh Ni (Siem Reap HC)" />
           <TestimonyCard text="New Life Fellowship's House Church Ministry and bible study classes have had a substantial impact on my spiritual growth in college. Though daunting at first, sharing about my daily and spiritual lives with my house church has given me both honest personal reflection and loving advice." name="-Derek Liang (Laos HC)" />
-          <TestimonyCard text="Lorem ipsum" name="-Susan Do (North Africa HC)" />
+          <TestimonyCard text="During my time in college, I grew alongside other brothers and sisters in Christ as we experienced both joys and challenges together. I am so grateful that God allowed us to do life together for such a short yet precious period of time, and I am looking forward to seeing how He will continue to work through our ministry!" name="-Susan Do (North Africa HC)" />
         </div>
       </div>
     </>
