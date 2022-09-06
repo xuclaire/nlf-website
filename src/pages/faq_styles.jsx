@@ -8,7 +8,7 @@ export const Pagehead = styled.div`
     font-family: palatino;
     color: #3A4520;
     font-weight: 700;
-    margin-left: 60px;
+    margin-left: 85px;
     margin-right: 60px;
     margin-bottom: 10px;
 `;
@@ -25,7 +25,7 @@ export const NewLife = styled.div`
     padding-bottom: 50px;
 `;
 export const Accordion = styled.div`
-    margin-left: 60px;
+    margin-left: 85px;
     margin-right: 60px;
 `;
 export const Span = styled.span`
@@ -36,7 +36,7 @@ export const CategoryHeaders = styled.div`
     font-size: 60px;
     color: #3A4520;
     font-weight: 700;
-    margin-left: 60px;
+    margin-left: 85px;
     margin-right: 60px;
 `;
 export const HcCategoryHeader = styled.div`
@@ -44,7 +44,7 @@ export const HcCategoryHeader = styled.div`
     font-size: 60px;
     color: white;
     font-weight: 700;
-    margin-left: 60px;
+    margin-left: 85px;
     margin-right: 60px;
 `;
 
