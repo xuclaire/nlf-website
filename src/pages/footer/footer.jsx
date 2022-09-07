@@ -41,7 +41,9 @@ function Footer() {
               <a href="https://www.instagram.com/nlfcollegeministry/" target="_blank" rel="noreferrer">
                 <img src={instaIcon} height={30} alt="Logo" />
               </a>
-              <img src={remindIcon} height={24} alt="Logo" />
+              <a href="https://www.remind.com/join/nlfco" target="_blank" rel="noreferrer">
+                <img src={remindIcon} height={24} alt="Logo" />
+              </a>
               <a href="https://www.youtube.com/c/nlfhtx" target="_blank" rel="noreferrer">
                 <img src={youtubeIcon} height={30} alt="Logo" />
               </a>

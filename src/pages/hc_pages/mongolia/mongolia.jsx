@@ -11,6 +11,10 @@ import photo5 from './photos/Mongolia5.jpg';
 import photo6 from './photos/Mongolia6.jpg';
 import photo7 from './photos/Mongolia7.jpg';
 import photo8 from './photos/Mongolia8.jpg';
+import photo9 from './photos/Mongolia9.jpg';
+import photo10 from './photos/Mongolia10.jpg';
+import photo11 from './photos/Mongolia13.jpg';
+import photo12 from './photos/Mongolia14.jpg';
 
 
 export default function Mongolia() {
@@ -42,6 +46,10 @@ export default function Mongolia() {
         photo6={photo6}
         photo7={photo7}
         photo8={photo8}
+        photo9={photo9}
+        photo10={photo10}
+        photo11={photo11}
+        photo12={photo12}
       />
     </>
   );
