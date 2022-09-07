@@ -1,0 +1,123 @@
+.overview-header-container {
+  background-color: #f8f3e3;
+  font-family: Palatino;
+  color: #3A4520;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.overview-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.overview-header-text {
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.overview-header-text p {
+  text-align: center;
+}
+
+.dark_green_container {
+  display: flex;
+  font-family: Palatino;
+  background-color: #3a4520;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7%;
+}
+
+.description-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.description-text {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+
+.housechurch-container {
+  display: flex;
+  font-family: Palatino;
+  background-color: white;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.housechurch_grid {
+  display: grid;
+  padding-bottom: 48px;
+  padding-top: 60px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 60px;
+  padding-left: 150px;
+}
+
+.beige_container {
+  display: flex;
+  background-color: #f8f3e3;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 84px;
+}
+
+.testimony_grid {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 108px;
+}
+
+.video {
+  padding-top: 82px;
+  padding-bottom: 82px;
+  background-color: #3A4520;
+  display: flex;
+  justify-content: start;
+  align-items: center; 
+}
+
+.housechurch-h {
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #3A4520;
+}
+
+.overview-h {
+  font-family: 'Palatino';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+  text-align: left;
+}
+
+.overview-h2 {
+  font-family: 'Palatino';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+  text-align: left;
+}
+

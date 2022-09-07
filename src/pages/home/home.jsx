@@ -1,15 +1,16 @@
 import React from 'react';
+import './home.css';
+
 import LeafImageContainerFaceRight from '../../shared-components/leafImageContainerFaceRight';
 import img from '../../images/home_group.jpg';
-import '../styles.css';
 import heart from '../../images/home_heart.svg';
-import EventContainer from '../../event_container/event_container';
-import event1 from '../../images/event1.jpg';
-import wavy from '../../images/wavy.svg';
 import HomeCard from './home_card';
 import housechurch from '../../images/house-church.svg';
 import getInvolved from '../../images/get-involved.svg';
 import ride from '../../images/ride.svg';
+
+import EventGrid from '../../event_container/events_grid.jsx';
+
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
               New Life Fellowship <br></br>College Ministry
             </h1>
           </div>
-          <p>
+          <p className="header_details">
             Welcome! Join us for fellowship, fun, and Jesus! We are <br></br>a Houston-based college ministry and would love for{' '}
             <br></br>
             you to learn more about us!
@@ -31,6 +32,19 @@ function Home() {
           </a>
         </div>
         <LeafImageContainerFaceRight photo={img} />
+      </div>
+      <div className="dark_green_container">
+        <div className="row">
+          <img src={heart} height={75} />
+        </div>
+        <div className="row">
+          <div className="text-box">
+            <h2>
+              Our mission is to reach the people of the world for Christ, build them up as fully devoted servant-leaders and send
+              them out as messengers of God’s Good News, all for the glory of God.
+            </h2>
+          </div>
+        </div>
       </div>
       <div className="light_green_container">
         <HomeCard
@@ -52,50 +66,8 @@ function Home() {
           link="/home"
         />
       </div>
-      <div className="dark_green_container">
-        <div className="row">
-          <img src={heart} height={75} />
-        </div>
-        <div className="row">
-          <h2>
-            We make disciples and model life with <br></br>
-            Christ through housechurch.
-          </h2>
-        </div>
-      </div>
       <div className="beige_container">
-        <div className="event_header">
-          <img src={wavy} height={50} />
-          <h3>Events</h3>
-        </div>
-        <div className="event_grid">
-          <EventContainer photo={event1} event="Corporate Worship" details="Sun | 9-11 am | NLF" description="Lorem ipsum" />
-          <EventContainer
-            photo={event1}
-            event="EMP: Early Morning Prayer"
-            details="Mon-Sat | 7-8 am | Rice"
-            description="Lorem ipsum"
-          />
-          <EventContainer
-            photo={event1}
-            event="HOP: House of Prayer"
-            details="1st Wed of Month | 7-9 pm | NLF"
-            description="Lorem ipsum"
-          />
-          <EventContainer
-            photo={event1}
-            event="AYA: As You Are"
-            details="2nd Wed of Month | 7:15-10 pm | Rice"
-            description="Lorem ipsum"
-          />
-          <EventContainer
-            photo={event1}
-            event="JAM: Jesus And Me"
-            details="4th Wed of Month | 7-9 pm | U of H"
-            description="Lorem ipsum"
-          />
-          <EventContainer photo={event1} event="College Retreat" details="Feb 24-26| Retreat Center" description="Lorem ipsum" />
-        </div>
+        <EventGrid />
         <a href="events">
           <button className="button">Check out our events!</button>
         </a>

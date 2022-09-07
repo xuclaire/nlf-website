@@ -1,0 +1,11 @@
+.event_header {
+  display: grid;
+  grid-template-columns: 0.5fr 900px;
+  align-items: center;
+}
+
+.event_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 150px;
+}

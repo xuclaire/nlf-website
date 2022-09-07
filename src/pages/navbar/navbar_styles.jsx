@@ -9,7 +9,7 @@ background: #F8F3E3;
     z-index:100;
 `;
 export const Logo = styled(Link)`
-    margin-right:auto ;
+    margin-left: 85px;
 `;
 export const Subgroup = styled.div`
     display: none;
