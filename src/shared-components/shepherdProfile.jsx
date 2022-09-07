@@ -5,7 +5,6 @@ function ShepherdProfile(props) {
   const { photo } = props;
   const { name } = props;
   const { house_church } = props;
-  const { link } = props;
 
   return (
     <div className="shepherd-profile-shell" alt="shepherd-profile-shell">
@@ -15,13 +14,9 @@ function ShepherdProfile(props) {
           {name}
         </span>
         <br />
-        <a href={link}>
-            <button className="shepherd-house-church" alt="shepherd-house-church">
-                <span className="house-church-text" alt="house-church-text">
-                    {house_church}
-                </span>
-            </button>
-        </a>
+        <span className="shepherd-house-church" alt="shepherd-house-church">
+          {house_church}
+        </span>
       </p>
     </div>
   );
@@ -31,7 +26,6 @@ ShepherdProfile.propTypes = {
   photo: PropTypes.oneOf(['img', 'svg']).isRequired,
   name: PropTypes.string.isRequired,
   house_church: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
 };
 
 export default ShepherdProfile;
