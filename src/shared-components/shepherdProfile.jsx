@@ -16,11 +16,11 @@ function ShepherdProfile(props) {
         </span>
         <br />
         <a href={link}>
-            <button className="shepherd-house-church" alt="shepherd-house-church">
-                <span className="house-church-text" alt="house-church-text">
-                    {house_church}
-                </span>
-            </button>
+          <button className="shepherd-house-church" alt="shepherd-house-church">
+            <span className="house-church-text" alt="house-church-text">
+              {house_church}
+            </span>
+          </button>
         </a>
       </p>
     </div>
