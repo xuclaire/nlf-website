@@ -26,8 +26,20 @@ import SusanPic from '../../images/susan.jpeg';
 
 function Leadership() {
   const [showPE, setShowPE] = useState(true);
-  function handleToggle() {
+  const [showPSang, setShowPSang] = useState(true);
+  const [showJusty, setShowJusty] = useState(true);
+  function handlePEToggle() {
     return setShowPE((prevState) => {
+      return !prevState;
+    });
+  }
+  function handlePSangToggle() {
+    return setShowPSang((prevState) => {
+      return !prevState;
+    });
+  }
+  function handleJustyToggle() {
+    return setShowJusty((prevState) => {
       return !prevState;
     });
   }
@@ -44,25 +56,48 @@ function Leadership() {
       <div className="meet-the-pastors-section">
         <h2 className="meet-the-pastors-title">Meet the Pastors</h2>
         <div className="pastor-bios">
-          <div className="pastor-box" onClick={handleToggle}>
+          <div className="pastor-eric-box" onClick={handlePEToggle}>
             <PastorCard photo={PastorEricPic} name={'Pastor Eric Shin'} role={'Senior Pastor'} />
-            {showPE &&
-              <PastorModal
-                photo={PastorEricPic}
-                name="Pastor Eric Shin"
-                role="Senior Pastor"
-                bio="As the Senior Pastor at New Life, Eric Shin has founded the church together with about twenty members on August 10, 1997. He grew up in New York City and was saved at the age of eighteen at a youth conference. After experiencing joys and challenges of following Christ and serving in His local church during high school and college years, he left behind aspirations of being a lawyer in his hometown and followed God’s call to seminary. Pastor Eric (affectionately known as PE) pastored a church in Boston for several years before coming to New Life with his lovely wife Lynette and their three children, Enoch, Caleb, and Josiah."
-              />
-            }
           </div>
-          <div className="pastor-box">
+          <div className="pastor-sang-box" onClick={handlePSangToggle}>
             <PastorCard photo={PastorSangPic} name={'Pastor Sang'} role={'College Pastor'} />
           </div>
-          <div className="pastor-box">
+          <div className="pastor-justy-box" onClick={handleJustyToggle}>
             <PastorCard photo={PastorJustyPic} name={'Pastor Justy'} role={'College Pastor'} />
           </div>
         </div>
-        <div className="pastor-modals"></div>
+        <div className="pastor-modals">
+            <div className="pe-modal">
+                {showPE &&
+                <PastorModal
+                    photo={PastorEricPic}
+                    name="Pastor Eric Shin"
+                    role="Senior Pastor"
+                    bio="As the Senior Pastor at New Life, Eric Shin has founded the church together with about twenty members on August 10, 1997. He grew up in New York City and was saved at the age of eighteen at a youth conference. After experiencing joys and challenges of following Christ and serving in His local church during high school and college years, he left behind aspirations of being a lawyer in his hometown and followed God’s call to seminary. Pastor Eric (affectionately known as PE) pastored a church in Boston for several years before coming to New Life with his lovely wife Lynette and their three children, Enoch, Caleb, and Josiah."
+                />
+                }
+            </div>
+            <div className="psang-modal">
+                {showPSang &&
+                <PastorModal
+                    photo={PastorSangPic}
+                    name="Pastor Sang"
+                    role="College Pastor"
+                    bio="Pastor Sang Chon joined New Life Fellowship as a member in 2004 and, prior to becoming New Life Fellowship’s College Pastor, had been a house church shepherd at New Life for 12 years.  While Pastor Sang lived in different cities (Calgary, Pittsburg, and Chicago) throughout his childhood, he spent the majority of his life in Houston, Texas and accepted Christ in high school through an outreach ministry called YoungLife.  After Pastor Sang graduated from the University of Texas in Austin with a B.S. in Electrical Engineering, he worked in the semiconductor industry in design and marketing for 20 years. In 2019, after much prayer and deliberation, Pastor Sang obeyed God’s calling to full-time ministry as New Life’s College Pastor.  Currently he is pursuing his M.Div. degree at Southwestern Baptist Theological Seminary."
+                />
+                }
+            </div>
+            <div className="justy-modal">
+                {showJusty &&
+                <PastorModal
+                    photo={PastorJustyPic}
+                    name="Pastor Justy"
+                    role="College Pastor"
+                    bio="Justy Chon has been a member of New Life Fellowship since 2000. She has spent over 15 years as a shepherd of house church. Justy accepted Jesus at a very young age in Seoul, Korea but dedicated her life to God when she first came to New Life. Justy received her Bachelor’s degree in Philosophy at the University of Texas in Austin. Pastor Sang and Justy have been married for 17 years and enjoy spending time with their 2 children: Eli and Gracie."
+                />
+                }
+            </div>
+        </div>
       </div>
       <div className="meet-the-college-volunteers-section">
         <div className="meet-the-college-volunteers-header">
