@@ -46,6 +46,7 @@ a:hover {
   max-height: 450px;
   min-height: 325px;
   min-width: 350px;
+  object-fit: cover;
 }
 
  .leaf-outline-left {
@@ -227,6 +228,8 @@ a:hover {
   position: relative;
   width: 337px;
   height: 422px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .pastor-img {
@@ -277,6 +280,10 @@ a:hover {
   position: relative;
   width: 222px;
   height: 278px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-bottom: 75px;
+  margin-top: 30px;
 }
 
 .shepherd-img {
@@ -388,9 +395,9 @@ a:hover {
 
 .shepherd-name {
   position: absolute;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 28px;
   line-height: 36px;
-  font-weight: 700;
 }
 
 .shepherd-house-church {

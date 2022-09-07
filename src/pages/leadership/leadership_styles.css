@@ -1,0 +1,177 @@
+.title-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 30px;
+
+    padding-top: 20.51px;
+    padding-bottom: 25px;
+
+    background: #F8F3E3;
+}
+
+.leadership-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 12%;
+    margin-right: 2%;
+    
+    font-family: 'Palatino';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: justify;
+    color: #3A4520;
+}
+
+.description-text {
+    text-align: justify;
+    word-wrap: break-word;
+    width: 666px;
+}
+
+.meet-the-pastors-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #3A4520;
+    align-items: center;
+}
+
+.meet-the-pastors-title {
+    margin-top: 88px;
+    margin-bottom: 57px;
+    
+    font-family: 'Palatino';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    
+    text-align: center;
+    
+    color: #F8F3E3;
+}
+
+.pastor-bios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: flex;
+    justify-content: center;
+    margin-bottom: 111px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.meet-the-college-volunteers-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meet-the-college-volunteers-header {
+    margin-top: 112px;
+    position: relative;
+    width: 886px;
+
+    font-family: 'Palatino';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+
+    text-align: center;
+
+    color: #3A4520;
+}
+
+.college-volunteers-title {
+    color: #3A4520;
+}
+
+.college-volunteers-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+
+    text-align: center;
+    color: #3A4520;
+}
+
+.college-volunteers-pic {
+    box-sizing: border-box;
+    height: 551.6917114257812px;
+    width: 948px;
+
+    position: relative;
+
+    border: 8px solid #7F9948;
+    border-radius: 0px 50px;
+
+    margin-top: 42px;
+    margin-bottom: 112.31px;
+}
+
+.meet-the-shepherds-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 138px;
+    padding-bottom: 127px;
+    background: #F8F3E3;
+    text-align: center;
+    align-items: center;
+}
+
+.meet-the-shepherds-header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Palatino';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #3A4520;
+}
+
+.shepherds-title {
+    color: #3A4520;
+}
+
+.shepherds-description {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    width: 996px;
+    text-align: center;
+    background: none;
+}
+
+.shepherd-profiles-center {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.shepherd-profiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.pastor-modals {
+    position: 
+}
+
