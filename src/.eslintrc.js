@@ -32,7 +32,7 @@ module.exports = {
   rules: {
     // Possible Errors (overrides from recommended set)
     'react/prop-types': OFF,
-    'no-extra-parens': ERROR,
+    'no-extra-parens': OFF,
     'no-unexpected-multiline': ERROR,
     // All JSDoc comments must be valid
     'valid-jsdoc': [

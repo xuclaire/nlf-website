@@ -48,10 +48,12 @@ function Leadership() {
             <PastorCard photo={PastorEricPic} name={'Pastor Eric Shin'} role={'Senior Pastor'} />
             {showPE &&
               <PastorModal
-                
+                photo={PastorEricPic}
                 name="Pastor Eric Shin"
                 role="Senior Pastor"
-                bio="As the Senior Pastor at New Life, Eric Shin has founded the church together with about twenty members on August 10, 1997. He grew up in New York City and was saved at the age of eighteen at a youth conference. After experiencing joys and challenges of following Christ and serving in His local church during high school and college years, he left behind aspirations of being a lawyer in his hometown and followed God’s call to seminary. Pastor Eric (affectionately known as PE) pastored a church in Boston for several years before coming to New Life with his lovely wife Lynette and their three children, Enoch, Caleb, and Josiah."/>}
+                bio="As the Senior Pastor at New Life, Eric Shin has founded the church together with about twenty members on August 10, 1997. He grew up in New York City and was saved at the age of eighteen at a youth conference. After experiencing joys and challenges of following Christ and serving in His local church during high school and college years, he left behind aspirations of being a lawyer in his hometown and followed God’s call to seminary. Pastor Eric (affectionately known as PE) pastored a church in Boston for several years before coming to New Life with his lovely wife Lynette and their three children, Enoch, Caleb, and Josiah."
+              />
+            }
           </div>
           <div className="pastor-box">
             <PastorCard photo={PastorSangPic} name={'Pastor Sang'} role={'College Pastor'} />
