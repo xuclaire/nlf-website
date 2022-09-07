@@ -46,6 +46,7 @@ a:hover {
   max-height: 450px;
   min-height: 325px;
   min-width: 350px;
+  object-fit: cover;
 }
 
  .leaf-outline-left {
@@ -227,6 +228,8 @@ a:hover {
   position: relative;
   width: 337px;
   height: 422px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .pastor-img {
@@ -277,6 +280,10 @@ a:hover {
   position: relative;
   width: 222px;
   height: 278px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-bottom: 75px;
+  margin-top: 30px;
 }
 
 .shepherd-img {
@@ -388,16 +395,99 @@ a:hover {
 
 .shepherd-name {
   position: absolute;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 28px;
   line-height: 36px;
-  font-weight: 700;
 }
 
 .shepherd-house-church {
-  position: absolute;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 10px;
+    margin-top: 9px;
+    height: 48px;
+
+    background: #7F9948;
+    border-radius: 32px;
+}
+
+.house-church-text {
+    align-self: center;
+}
+
+.pastor-modal-shell {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    width: 1067px;
+    height: 346px;
+
+    background: #3A4520;
+    border-radius: 0px 50px;
+}
+
+.pastor-img-modal {
+    box-sizing: border-box;
+
+    position: relative;
+    height: 300px;
+    width: 300px;
+    flex-grow: 1;
+    margin-right: 24px;
+
+    border: 8px solid #7F9948;
+    border-radius: 0px 50px;
+}
+
+.pastor-text-modal {
+    overflow: scroll;
+    font-family: 'Palatino';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 24px;
+
+    color: #F8F3E3;
+    flex-direction: column;
+}
+
+.pastor-name-modal {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.pastor-role-modal {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.pastor-bio-modal {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.x-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Arial';
+    left: 96%;
+    top: 4%;
+    font-size: 30px;
+    font-weight: 150;
+    line-height: 24px;
 }
 
 .class-container-shell {
