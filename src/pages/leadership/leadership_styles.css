@@ -66,6 +66,10 @@
     margin-right: 40px;
 }
 
+.pastor-box {
+  display: flex;
+}
+
 .meet-the-college-volunteers-section {
     display: flex;
     flex-direction: column;
@@ -169,9 +173,5 @@
     justify-content: center;
     margin-left: 35px;
     margin-right: 35px;
-}
-
-.pastor-modals {
-    position: 
 }
 
