@@ -1,7 +1,7 @@
 .title-section {
     display: flex;
+    justify-content: flex-start;
     flex-direction: row;
-    justify-content: start;
     gap: 30px;
 
     padding-top: 20.51px;

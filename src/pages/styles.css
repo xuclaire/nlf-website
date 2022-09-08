@@ -7,9 +7,9 @@
 .header_container {
   background-color: #f8f3e3;
   font-family: Palatino;
-  color: black;
+  color: #000000;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -60,7 +60,7 @@
 
 .header {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   padding-bottom: 20px;
 }

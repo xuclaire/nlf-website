@@ -3,7 +3,7 @@
   padding-bottom: 30px;
   background-color: #3A4520;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center; 
 }
 
@@ -12,7 +12,7 @@
   font-family: Palatino;
   color: black;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: left; 
   padding-bottom: 50px;
   padding-top: 50px;

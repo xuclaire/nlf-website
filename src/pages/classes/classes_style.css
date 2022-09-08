@@ -3,7 +3,7 @@
   font-family: Palatino;
   color: black;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center; 
   padding-bottom: 50px;
   padding-top: 50px;     
@@ -36,7 +36,7 @@
   font-family: Palatino;
   color: #F8F3E3;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center; 
   padding-bottom: 50px;
   padding-top: 50px; 
@@ -67,7 +67,7 @@
   font-family: Palatino;
   color: #F8F3E3;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center; 
   padding-bottom: 50px;
   padding-top: 50px; 
@@ -97,7 +97,7 @@
   font-family: Palatino;
   color: #F8F3E3;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center; 
   padding-bottom: 50px;
   padding-top: 50px; 
@@ -128,7 +128,7 @@
   font-family: Palatino;
   color: #F8F3E3;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center; 
   padding-bottom: 50px;
   padding-top: 50px; 
@@ -158,7 +158,7 @@
   font-family: Palatino;
   color: #F8F3E3;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center; 
   padding-bottom: 50px;
   padding-top: 50px; 
@@ -189,7 +189,7 @@
   font-family: Palatino;
   color: #F8F3E3;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center; 
   padding-bottom: 50px;
   padding-top: 50px; 
