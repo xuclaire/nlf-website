@@ -1,5 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 function HousechurchCard(props) {
   const { photo } = props;
@@ -9,15 +10,18 @@ function HousechurchCard(props) {
   return (
     <div className="hc-card-shell" alt="event-container-shell">
       <img className="img-box2" src={photo} alt="img-box" />
-      <a href={link}>
+      {/* <a to={link} href={link}>
         <button className="hc-button">{HC}</button>
-      </a>
+      </a> */}
+      <Link to={link}>
+        <button className="hc-button">{HC}</button>
+      </Link>
     </div>
   );
 }
 
 HousechurchCard.propTypes = {
-  photo: PropTypes.oneOf(['img', 'svg']).isRequired,
+  photo: PropTypes.oneOf(["img", "svg"]).isRequired,
   HC: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };

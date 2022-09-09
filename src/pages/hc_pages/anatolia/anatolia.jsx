@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from '../hc_pages/shared/header';
-import PhotoGallery from '../hc_pages/shared/photo_gallery';
+import Header from '../shared/header';
+import PhotoGallery from '../shared/photo_gallery';
 import shep from './photos/shep.jpg';
 import photo1 from './photos/Anatolia1.jpg';
 import photo2 from './photos/Anatolia2.jpg';
