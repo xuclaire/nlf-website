@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
+
 
 function ShepherdProfile(props) {
   const { photo } = props;
@@ -15,13 +17,13 @@ function ShepherdProfile(props) {
           {name}
         </span>
         <br />
-        <a href={link}>
+        <Link to={link}>
           <button className="shepherd-house-church" alt="shepherd-house-church">
             <span className="house-church-text" alt="house-church-text">
               {house_church}
             </span>
           </button>
-        </a>
+        </Link>
       </p>
     </div>
   );
