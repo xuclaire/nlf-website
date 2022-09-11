@@ -75,7 +75,7 @@ function Leadership() {
             <PastorCard photo={PastorSangPic} name={'Pastor Sang'} role={'College Pastor'} />
           </div>
           <div className="pastor-justy-box" onClick={handleJustyToggle}>
-            <PastorCard photo={PastorJustyPic} name={'Pastor Justy'} role={'College Pastor'} />
+            <PastorCard photo={PastorJustyPic} name={'Justy Chon'} role={'Pastor\'s Wife'} />
           </div>
         </div>
         <div className="pastor-modals">
@@ -103,8 +103,8 @@ function Leadership() {
             {showJusty && (
               <PastorModal
                 photo={PastorJustyPic}
-                name="Pastor Justy"
-                role="College Pastor"
+                name="Justy Chon"
+                role="Pastor's Wife"
                 bio="Justy Chon has been a member of New Life Fellowship since 2000. She has spent over 15 years as a shepherd of house church. Justy accepted Jesus at a very young age in Seoul, Korea but dedicated her life to God when she first came to New Life. Justy received her Bachelor’s degree in Philosophy at the University of Texas in Austin. Pastor Sang and Justy have been married for 17 years and enjoy spending time with their 2 children: Eli and Gracie."
               />
             )}
