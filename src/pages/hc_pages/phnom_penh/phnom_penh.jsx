@@ -25,7 +25,7 @@ export default function PhnomPenh() {
         HCname="Phnom Penh House Church"
         description="Phnom Penh (aka PP house church) is consisted of 7 girls and 4 boys
         and we are a very chill and loving bunch. Come join our love for popcorn,
-        warm blankets, and back cracks
+        warm blankets, and back cracks.
         Our lake trip video- https://www.youtube.com/watch?v=qVDgpGp7iWg ;)
         Disclaimer: we have more than 2 guy members they just were not able to come on the trip
         "

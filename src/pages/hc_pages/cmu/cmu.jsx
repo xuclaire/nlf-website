@@ -22,11 +22,10 @@ export default function CMU() {
       <Header
         photo={photo1}
         HCname="Chiang Mai University House Church"
-        description="We have 4 guys and 3 girls with a good mix of health and comp sci majors (more variety welcome) 
-        CMU easily goes from 0 to 100 and loves to roast *cough* lightly toast one another 
-        REQUIREMENTS:
-        Musical talent is not a requirement but it is a sprinkle (more details on scoops and sprinkles provided should you visit)
-        There’s more but you have to visit first :D"
+        description="We have a good mix of health and comp sci majors (more variety welcome) 
+        CMU easily goes from 0 to 100 and loves to roast *cough* lightly toast one another REQUIREMENTS: 
+        Love for God!! Musical talent is not a requirement but it is a sprinkle (more details on scoops 
+        and sprinkles provided should you come) There’s more but you have to visit first :D"
         shepPhoto1={shep}
         shepName1="Rebekah Heo"
         shepSchool1="Rice 2024"
