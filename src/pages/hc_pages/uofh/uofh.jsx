@@ -24,7 +24,7 @@ export default function UofH() {
       <Header
         photo={photo1}
         HCname="University of Houston House Church"
-        description="TBD consists of mostly on-campus students at the University of Houston.
+        description="U of H consists of mostly on-campus students at the University of Houston.
         If you want to get BIG, learn to DANCE, HOOP, or just want to SMOOCH a brother join
         us! We have some mad thinkers in this HC so don’t be afraid to ask questions about
         your faith. You are also always welcome at the WANG-OU residence. Let’s dive into

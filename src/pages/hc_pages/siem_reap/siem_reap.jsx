@@ -26,10 +26,9 @@ export default function SiemReap() {
       <Header2
         photo={photo1}
         HCname="Siem Reap House Church"
-        description="siemreap HC consists of 6 girls and 5 guys! We are a chaotic yet fun loving
-        bunch! Come join us in the best house church to eat late night taco bell,
-        worship God, and be a bit crazy sometimes <3 We would love to have you :)
-        Ls for siemreap! Our hc verse is 1 John 4:19 - ‘We love because He first loved us.’
+        description="Siem Reap HC consists of 12 members, 5 girls and 7 guys. We are carefree
+        and chaotic on the outside (refer to photos for details), but on the inside we highkey
+        love deep talks and farts.
         "
         shepPhoto1={shep}
         shepName1="Kristine Yuan"
