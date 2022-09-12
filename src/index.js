@@ -1,32 +1,32 @@
 /* eslint-disable */
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import reportWebVitals from './reportWebVitals';
-import Home from './pages/home/home';
-import AboutUs from './pages/about_us';
-import Overview from './pages/hc_overview/overview';
-import Events from './pages/events/events';
-import Classes from './pages/classes/classes';
-import FAQ from './pages/faq';
-import GetConnected from './pages/get_connected/get_connected';
-import Navbar from './pages/navbar/navbar';
-import Footer from './pages/footer/footer';
-import WhatWeDo from './pages/what_we_do/what_we_do';
-import Leadership from './pages/leadership/leadership';
-import SummerHC from './pages/summer_hc/summer_hc';
-import Anatolia from './pages/hc_pages/anatolia/anatolia';
-import CentralJapan from './pages/hc_pages/central japan/central_japan';
-import CMU from './pages/hc_pages/cmu/cmu';
-import Laos from './pages/hc_pages/laos/laos';
-import Manado from './pages/hc_pages/manado/manado';
-import Mongolia from './pages/hc_pages/mongolia/mongolia';
-import UofH from './pages/hc_pages/uofh/uofh';
-import NAHC from './pages/hc_pages/nahc/north_africa';
-import PhnomPenh from './pages/hc_pages/phnom_penh/phnom_penh';
-import SiemReap from './pages/hc_pages/siem_reap/siem_reap';
-import Tunisia from './pages/hc_pages/tunisia/tunisia';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import reportWebVitals from "./reportWebVitals";
+import Home from "./pages/home/home";
+import AboutUs from "./pages/about_us";
+import Overview from "./pages/hc_overview/overview";
+import Events from "./pages/events/events";
+import Classes from "./pages/classes/classes";
+import FAQ from "./pages/faq";
+import GetConnected from "./pages/get_connected/get_connected";
+import Navbar from "./pages/navbar/navbar";
+import Footer from "./pages/footer/footer";
+import WhatWeDo from "./pages/what_we_do/what_we_do";
+import Leadership from "./pages/leadership/leadership";
+import SummerHC from "./pages/summer_hc/summer_hc";
+import Anatolia from "./pages/hc_pages/anatolia/anatolia";
+import CentralJapan from "./pages/hc_pages/central japan/central_japan";
+import CMU from "./pages/hc_pages/cmu/cmu";
+import Laos from "./pages/hc_pages/laos/laos";
+import Manado from "./pages/hc_pages/manado/manado";
+import Mongolia from "./pages/hc_pages/mongolia/mongolia";
+import UofH from "./pages/hc_pages/uofh/uofh";
+import NAHC from "./pages/hc_pages/nahc/north_africa";
+import PhnomPenh from "./pages/hc_pages/phnom_penh/phnom_penh";
+import SiemReap from "./pages/hc_pages/siem_reap/siem_reap";
+import Tunisia from "./pages/hc_pages/tunisia/tunisia";
 // import { FooterContainer } from './containers/footer'
 
 export default function App() {
@@ -57,12 +57,12 @@ export default function App() {
           <Route path="/siem_reap" element={<SiemReap />} />
           <Route path="/tunisia" element={<Tunisia />} />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

@@ -10,9 +10,6 @@ function HousechurchCard(props) {
   return (
     <div className="hc-card-shell" alt="event-container-shell">
       <img className="img-box2" src={photo} alt="img-box" />
-      {/* <a to={link} href={link}>
-        <button className="hc-button">{HC}</button>
-      </a> */}
       <Link to={link}>
         <button className="hc-button">{HC}</button>
       </Link>

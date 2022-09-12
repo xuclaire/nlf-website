@@ -34,7 +34,7 @@ export default function Anatolia() {
         shepPhoto1={shep}
         shepName1="Cici Du"
         shepSchool1="Rice 2023"
-        shepMajor1="Statistics"
+        shepMajor1="Statistics + Cognitive Science, Minor in Data Science"
         shepMessenger1="https://www.facebook.com/cici.du.33"
         shepEmail1="mailto:sd80@rice.edu"
       />
