@@ -2,8 +2,10 @@ import React from 'react';
 
 import Header2 from '../shared/header2';
 import PhotoGallery from '../shared/photo_gallery';
-import shep from './photos/shep.JPG';
-import shep2 from './photos/shep2.JPG';
+import shep2 from '../../../images/josh_ni.jpeg';
+import shep from '../../../images/kristine_yuan.jpeg';
+// import shep from './photos/shep.JPG';
+// import shep2 from './photos/shep2.JPG';
 import photo1 from './photos/siemreap1.JPG';
 import photo2 from './photos/siemreap2.JPG';
 import photo3 from './photos/siemreap3.JPG';
