@@ -23,13 +23,13 @@ export default function Mongolia() {
       <Header
         photo={photo1}
         HCname="Mongolia House Church"
-        description="Mongolia
-       HC consists of 6 girls and 5 guys! We are a chaotic yet fun loving
-        bunch! Come join us in the best house church to eat late night taco bell,
-        worship God, and be a bit crazy sometimes <3 We would love to have you :)
-        Ls for Mongolia
-      ! Our hc verse is 1 John 4:19 - ‘We love because He first loved us.’
-        "
+        description="Mongolia is the strongest House Church! Outside of the church and the classroom, 
+        you can find many of our members at the gym, staying fit :) However, more than physical strength, 
+        our house church is devoted to growing stronger in our walk with the Lord through prayer and fellowship. 
+        We love hanging out together and learning to trust God by encouraging one another and lifting each other 
+        up. Come visit Mongolia HC for a good laugh, a good time of sharing, and a place of spiritual rest; 
+        we’d love to have you :) 1 Timothy 4:8: “For physical training is of some value, but godliness has 
+        value for all things, holding promise for both the present life and the life to come."
         shepPhoto1={shep}
         shepName1="Aaron Lin"
         shepSchool1="Rice 2023"

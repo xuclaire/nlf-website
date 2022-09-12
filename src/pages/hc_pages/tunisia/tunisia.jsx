@@ -22,10 +22,9 @@ export default function Tunisia() {
       <Header
         photo={photo1}
         HCname="Tunisia House Church"
-        description="Tunisia HC consists of 11 members (6 girls and 5 boys), we’re
-        funny and easily distracted. Think of us as siblings that like to
-        chill and hang out with each other. It’s very much a controlled chaos kinda environment.
-        And we’re built different."
+        description="Tunisia consists of 12 members (6 girls and 6 boys) who love to roast our 
+        shepherd and laugh all day every day. Come for the loving fellowship, intellectual 
+        tangents, and good EATS! Be a part of the fam, be built different."
         shepPhoto1={shep}
         shepName1="Peter Chung"
         shepSchool1="Rice 2023"
