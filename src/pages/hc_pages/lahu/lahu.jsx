@@ -18,13 +18,13 @@ import photo11 from './photos/NA11.jpg';
 import photo12 from './photos/NA12.jpg';
 
 
-export default function UofH() {
+export default function Lahu() {
   return (
     <>
       <Header
         photo={photo1}
-        HCname="University of Houston House Church"
-        description="U of H consists of mostly on-campus students at the University of Houston.
+        HCname="Lahu House Church"
+        description="Lahu consists of mostly on-campus students at the University of Houston.
         If you want to get BIG, learn to DANCE, HOOP, or just want to SMOOCH a brother join
         us! We have some mad thinkers in this HC so don’t be afraid to ask questions about
         your faith. You are also always welcome at the WANG-OU residence. Let’s dive into

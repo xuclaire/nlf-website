@@ -22,7 +22,7 @@ import CMU from "./pages/hc_pages/cmu/cmu";
 import Laos from "./pages/hc_pages/laos/laos";
 import Manado from "./pages/hc_pages/manado/manado";
 import Mongolia from "./pages/hc_pages/mongolia/mongolia";
-import UofH from "./pages/hc_pages/uofh/uofh";
+import Lahu from "./pages/hc_pages/lahu/lahu";
 import NAHC from "./pages/hc_pages/nahc/north_africa";
 import PhnomPenh from "./pages/hc_pages/phnom_penh/phnom_penh";
 import SiemReap from "./pages/hc_pages/siem_reap/siem_reap";
@@ -51,7 +51,7 @@ export default function App() {
           <Route path="/laos" element={<Laos />} />
           <Route path="/manado" element={<Manado />} />
           <Route path="/mongolia" element={<Mongolia />} />
-          <Route path="/uofh" element={<UofH />} />
+          <Route path="/lahu" element={<Lahu />} />
           <Route path="/north_africa" element={<NAHC />} />
           <Route path="/phnom_penh" element={<PhnomPenh />} />
           <Route path="/siem_reap" element={<SiemReap />} />

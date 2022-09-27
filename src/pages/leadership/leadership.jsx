@@ -137,14 +137,14 @@ function Leadership() {
             <ShepherdProfile photo={ClairePic} name={'Claire Xu'} house_church={'Laos'} link="/laos" />
             <ShepherdProfile photo={DamianPic} name={'Damian Andaya'} house_church={'North Africa'} link="/north_africa" />
             <ShepherdProfile photo={EnochPic} name={'Enoch Chen'} house_church={'Central Japan'} link="/central_japan" />
-            <ShepherdProfile photo={EricPic} name={'Eric Ou'} house_church={'U of H'} link="/uofh" />
+            <ShepherdProfile photo={EricPic} name={'Eric Ou'} house_church={'Lahu'} link="/lahu" />
             <ShepherdProfile photo={EstherPic} name={'Esther Lee'} house_church={'Phnom Penh'} link="/phnom_penh" />
             <ShepherdProfile photo={GeorgePic} name={'George Hung'} house_church={'Phnom Penh'} link="/phnom_penh" />
             <ShepherdProfile photo={JoshPic} name={'Josh Ni'} house_church={'Siem Reap'} link="/siem_reap" />
             <ShepherdProfile photo={KristinePic} name={'Kristine Yuan'} house_church={'Siem Reap'} link="/siem_reap" />
             <ShepherdProfile photo={PeterPic} name={'Peter Chung'} house_church={'Tunisia'} link="/tunisia" />
             <ShepherdProfile photo={RebekahPic} name={'Rebekah Heo'} house_church={'CMU'} link="/cmu" />
-            <ShepherdProfile photo={SusanPic} name={'Susan Do'} house_church={'U of H'} link="/uofh" />
+            <ShepherdProfile photo={SusanPic} name={'Susan Do'} house_church={'Lahu'} link="/lahu" />
           </div>
         </div>
       </div>

@@ -67,7 +67,7 @@ export default function Overview() {
           <HousechurchCard photo={Laos} HC="Laos" link="/laos" />
           <HousechurchCard photo={Manado} HC="Manado" link="/manado" />
           <HousechurchCard photo={Mongolia} HC="Mongolia" link="/mongolia" />
-          <HousechurchCard photo={SA} HC="U of H" link="/uofh" />
+          <HousechurchCard photo={SA} HC="Lahu" link="/lahu" />
           <HousechurchCard photo={NA} HC="North Africa" link="/north_africa" />
           <HousechurchCard photo={Phnom} HC="Phnom Penh" link="/phnom_penh" />
           <HousechurchCard photo={Siem} HC="Siem Reap" link="/siem_reap" />
