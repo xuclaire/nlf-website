@@ -4,25 +4,41 @@ import LeafImageContainerFaceRight from '../../shared-components/leafImageContai
 import LeadershipTopPic from '../../images/leadership_title.jpeg';
 import PastorCard from '../../shared-components/pastorCard';
 import PastorModal from '../../shared-components/pastorModal';
-import PastorEricPic from '../../images/pastor_eric_bio.jpeg';
+import PastorEricPic from '../../images/pastor_eric_bio.jpg';
 import PastorSangPic from '../../images/pastor_sang_bio.jpeg';
 import PastorJustyPic from '../../images/pastor_justy_bio.jpeg';
 import CollegeVolunteers from '../../images/College_Volunteers.JPG';
 import ShepherdProfile from '../../shared-components/shepherdProfile';
-import RebekahPic from '../../images/rebekah_heo.jpeg';
-import AaronPic from '../../images/aaron_lin.jpeg';
-import ChristinePic from '../../images/christine.jpeg';
-import CiciPic from '../../images/cici_du.jpeg';
-import ClairePic from '../../images/claire_xu.jpeg';
+
+
+import AubreyPic from '../../images/aubrey_cui.jpg';
+import AudreyPic from '../../images/audrey_lee.jpg';
+import BrianPic from '../../images/brain_seo.jpg';
+import ClayPic from '../../images/clay_murphy.jpg';
 import DamianPic from '../../images/damian_andaya.jpeg';
-import EnochPic from '../../images/enoch_chen.png';
-import EricPic from '../../images/eric_ou.jpg';
-import EstherPic from '../../images/esther_lee.jpeg';
-import GeorgePic from '../../images/george_hung.jpeg';
+import DerekPic from '../../images/derek_liang.jpg';
+import GospelPic from '../../images/gospel_ibe.jpg';
+import HarrisPic from '../../images/harris_kwon.jpg';
+import JacobPic from '../../images/jacob_lee.jpg';
+import JefferyPic from '../../images/jeffery_huang.jpg';
+import JessicaPic from '../../images/jessica_suh.jpg';
+import JJPic from '../../images/jj_lee.jpg';
+import JocelynPic from '../../images/jocelyn_lee.jpg';
 import JoshPic from '../../images/josh_ni.jpeg';
-import KristinePic from '../../images/kristine_yuan.jpeg';
-import PeterPic from '../../images/peter_chung.jpeg';
-import SusanPic from '../../images/susan.jpeg';
+import KaitlynPic from '../../images/kaitlyn_kim.jpg';
+import LiaPic from '../../images/lia_kim.jpg';
+import OrianaPic from '../../images/oriana_tang.jpg';
+import RachelPic from '../../images/rachel_armstrong.jpg';
+import RebekahPic from '../../images/rebekah_heo.jpg';
+import RicPic from '../../images/ric_chang.jpg';
+import SarahPic from '../../images/sarah_eunsu_kim.jpg';
+import TaehoPic from '../../images/taeho_choe.jpg';
+import TchinPic from '../../images/teresa_chin.jpg';
+import TchoPic from '../../images/teresa_cho.jpg';
+import TylerPic from '../../images/tyler_braito.jpg';
+
+
+
 
 function Leadership() {
   const [showPE, setShowPE] = useState(false);
@@ -72,7 +88,7 @@ function Leadership() {
             <PastorCard photo={PastorEricPic} name={'Pastor Eric Shin'} role={'Senior Pastor'} />
           </div>
           <div className="pastor-sang-box" onClick={handlePSangToggle}>
-            <PastorCard photo={PastorSangPic} name={'Pastor Sang'} role={'College Pastor'} />
+            <PastorCard photo={PastorSangPic} name={'Pastor Sang Kevin Chon'} role={'College Pastor'} />
           </div>
           <div className="pastor-justy-box" onClick={handleJustyToggle}>
             <PastorCard photo={PastorJustyPic} name={'Justy Chon'} role={'Pastor\'s Wife'} />
@@ -131,20 +147,31 @@ function Leadership() {
         </div>
         <div className="shepherd-profiles-center">
           <div className="shepherd-profiles">
-            <ShepherdProfile photo={AaronPic} name={'Aaron Lin'} house_church={'Mongolia'} link="/mongolia" />
-            <ShepherdProfile photo={ChristinePic} name={'Christine Lee'} house_church={'Manado'} link="/manado" />
-            <ShepherdProfile photo={CiciPic} name={'Cici Du'} house_church={'Anatolia'} link="/anatolia" />
-            <ShepherdProfile photo={ClairePic} name={'Claire Xu'} house_church={'Laos'} link="/laos" />
+            <ShepherdProfile photo={AubreyPic} name={'Aubrey Cui'} house_church={'Tunisia'} link="/tunisia" />
+            <ShepherdProfile photo={AudreyPic} name={'Audrey Lee'} house_church={'North Egypt'} link="/north_egypt" />
+            <ShepherdProfile photo={BrianPic} name={'Brian Seo'} house_church={'North Egypt'} link="/north_egypt" />
+            <ShepherdProfile photo={ClayPic} name={'Clay Murphy'} house_church={'Indonesia'} link="/indonesia" />
             <ShepherdProfile photo={DamianPic} name={'Damian Andaya'} house_church={'North Africa'} link="/north_africa" />
-            <ShepherdProfile photo={EnochPic} name={'Enoch Chen'} house_church={'Central Japan'} link="/central_japan" />
-            <ShepherdProfile photo={EricPic} name={'Eric Ou'} house_church={'Lahu'} link="/lahu" />
-            <ShepherdProfile photo={EstherPic} name={'Esther Lee'} house_church={'Phnom Penh'} link="/phnom_penh" />
-            <ShepherdProfile photo={GeorgePic} name={'George Hung'} house_church={'Phnom Penh'} link="/phnom_penh" />
-            <ShepherdProfile photo={JoshPic} name={'Josh Ni'} house_church={'Siem Reap'} link="/siem_reap" />
-            <ShepherdProfile photo={KristinePic} name={'Kristine Yuan'} house_church={'Siem Reap'} link="/siem_reap" />
-            <ShepherdProfile photo={PeterPic} name={'Peter Chung'} house_church={'Tunisia'} link="/tunisia" />
-            <ShepherdProfile photo={RebekahPic} name={'Rebekah Heo'} house_church={'CMU'} link="/cmu" />
-            <ShepherdProfile photo={SusanPic} name={'Susan Do'} house_church={'Lahu'} link="/lahu" />
+            <ShepherdProfile photo={DerekPic} name={'Derek Liang'} house_church={'Laos'} link="/laos" />
+            <ShepherdProfile photo={GospelPic} name={'Gospel Ibe'} house_church={'Siem Reap'} link="/siem_reap" />
+            <ShepherdProfile photo={HarrisPic} name={'Harris Kwon'} house_church={'A&M Harris and Teresa'} link="/A&M-hat" />
+            <ShepherdProfile photo={JacobPic} name={'Jacob Lee'} house_church={'Jacob Lee'} link="/jacoblee" />
+            <ShepherdProfile photo={JefferyPic} name={'Jeffery Huang'} house_church={'Manado'} link="/manado" />
+            <ShepherdProfile photo={JessicaPic} name={'Jessica Suh'} house_church={'Indonesia'} link="/indonesia" />
+            <ShepherdProfile photo={JJPic} name={'JJ Lee'} house_church={'Delhi'} link="/delhi" />
+            <ShepherdProfile photo={JocelynPic} name={'Jocelyn Lee'} house_church={'Tunisia'} link="/tunisia" />
+            <ShepherdProfile photo={JoshPic} name={'Josh Ni'} house_church={'Kyrgyzstan'} link="/kyrgyzstan" />
+            <ShepherdProfile photo={KaitlynPic} name={'Kaitlyn Kim'} house_church={'Delhi'} link="/delhi" />
+            <ShepherdProfile photo={LiaPic} name={'Lia Kim'} house_church={'Hyderabad'} link="/hyderabad" />
+            <ShepherdProfile photo={OrianaPic} name={'Oriana Tang'} house_church={'Mongolia'} link="/mongolia" />
+            <ShepherdProfile photo={RachelPic} name={'Rachel Armstrong'} house_church={'Lahu Thailand'} link="/lahu" />
+            <ShepherdProfile photo={RebekahPic} name={'Rebekah Heo'} house_church={'Chiang Mai University'} link="/cmu" />
+            <ShepherdProfile photo={RicPic} name={'Ric Chang'} house_church={'Hyderabad'} link="/hyderabad" />
+            <ShepherdProfile photo={SarahPic} name={'Sarah Eunsu Kim'} house_church={'Laos'} link="/laos" />
+            <ShepherdProfile photo={TaehoPic} name={'Taeho Choe'} house_church={'Phnom Penh'} link="/phnom_penh" />
+            <ShepherdProfile photo={TchinPic} name={'Teresa Chin'} house_church={'Anatolia'} link="/anatolia" />
+            <ShepherdProfile photo={TchoPic} name={'Teresa Cho'} house_church={'A&M Harris and Teresa'} link="/A&M-hat" />
+            <ShepherdProfile photo={TylerPic} name={'Tyler Braito'} house_church={'Mongolia'} link="/mongolia" />
           </div>
         </div>
       </div>

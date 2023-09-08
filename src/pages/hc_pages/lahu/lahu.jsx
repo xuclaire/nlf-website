@@ -1,21 +1,20 @@
 import React from 'react';
 
-import Header from '../shared/header2';
+import Header from '../shared/header';
 import PhotoGallery from '../shared/photo_gallery';
-import shep from './photos/shep.jpg';
-import shep2 from './photos/susan.jpeg';
-import photo1 from './photos/Main.JPG';
-import photo2 from './photos/NA2.JPG';
-import photo3 from './photos/NA3.jpg';
-import photo4 from './photos/NA4.jpg';
-import photo5 from './photos/NA5.JPG';
-import photo6 from './photos/NA6.jpg';
-import photo7 from './photos/NA7.jpg';
-import photo8 from './photos/NA8.jpg';
-import photo9 from './photos/NA9.jpg';
-import photo10 from './photos/NA10.jpg';
-import photo11 from './photos/NA11.jpg';
-import photo12 from './photos/NA12.jpg';
+import shep1 from './photos/shep1.jpg';
+import photo1 from './photos/lahu1.jpg';
+import photo2 from './photos/lahu2.jpg';
+import photo3 from './photos/lahu3.jpg';
+import photo4 from './photos/lahu4.jpg';
+import photo5 from './photos/lahu5.jpg';
+import photo6 from './photos/lahu6.jpg';
+import photo7 from './photos/lahu7.jpg';
+import photo8 from './photos/lahu8.jpg';
+import photo9 from './photos/lahu9.jpg';
+import photo10 from './photos/lahu10.jpg';
+import photo11 from './photos/lahu11.jpg';
+import photo12 from './photos/lahu12.jpg';
 
 
 export default function Lahu() {
@@ -23,24 +22,17 @@ export default function Lahu() {
     <>
       <Header
         photo={photo1}
-        HCname="Lahu House Church"
-        description="Lahu consists of mostly on-campus students at the University of Houston.
-        If you want to get BIG, learn to DANCE, HOOP, or just want to SMOOCH a brother join
-        us! We have some mad thinkers in this HC so don’t be afraid to ask questions about
-        your faith. You are also always welcome at the WANG-OU residence. Let’s dive into
-        the Good Book shall we?"
-        shepPhoto1={shep2}
-        shepName1="Susan Do"
-        shepSchool1="Post Bacc @ Baylor College of Medicine"
-        shepMajor1=" Biomedical Sciences + Health Equity"
-        shepMessenger1="https://www.facebook.com/susan.do.52/"
-        shepEmail1="mailto:suphdo1217@gmail.com"
-        shepPhoto2={shep}
-        shepName2="Eric Ou"
-        shepSchool2="U of H 2023"
-        shepMajor2="Biology, Minors in Medicine + Society"
-        shepMessenger2="https://www.facebook.com/profile.php?id=100004900905211"
-        shepEmail2="mailto:ericou328@gmail.com"
+        HCname="Lahu Thailand House Church"
+        description="Lahu Thailand has 7 guys- but somehow the 2 girls in the house church have most of the brawn.
+         We are the type of HC that loves enriching activities (roasting each other), profound debates (do you fold or crumple your toilet paper🤔?), and overall just spending time with each other! 
+         Lahu is full of many different ✨unique✨personalities, so there’s definitely a bestie for you. 
+        In summary, we love and support each other as well as enjoy living life together!!! Join us and there will never be a dull moment, only a fulfilling moment :D"
+        shepPhoto1={shep1}
+        shepName1="Rachel Armstrong"
+        shepSchool1="Houston Community College"
+        shepMajor1="Dental Hygiene"
+        shepMessenger1="https://www.facebook.com/rachel.armstrong.52438"
+        shepEmail1="mailto:i1abgr8@gmail.com"
       />
       <PhotoGallery
         photo1={photo1}

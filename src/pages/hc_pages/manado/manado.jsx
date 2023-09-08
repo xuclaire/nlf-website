@@ -2,25 +2,25 @@ import React from 'react';
 
 import Header from '../shared/header';
 import PhotoGallery from '../shared/photo_gallery';
-import shep from './photos/shep.JPEG';
-import photo1 from './photos/MANADO1.JPG';
-import photo2 from './photos/MANADO2.JPG';
-import photo3 from './photos/MANADO3.JPG';
-import photo4 from './photos/MANADO4.JPG';
-import photo5 from './photos/MANADO5.jpg';
-import photo6 from './photos/MANADO6.JPG';
-import photo7 from './photos/MANADO7.JPG';
-import photo8 from './photos/MANADO8.JPG';
-import photo9 from './photos/MANADO9.JPG';
-import photo10 from './photos/MANADO10.jpg';
-import photo11 from './photos/MANADO11.jpg';
-import photo12 from './photos/MANADO12.JPG';
+import shep from './photos/shep1.JPG';
+import photo1 from './photos/manado1.JPG';
+import photo2 from './photos/manado2.JPG';
+import photo3 from './photos/manado3.JPG';
+import photo4 from './photos/manado4.JPG';
+import photo5 from './photos/manado5.JPG';
+import photo6 from './photos/manado6.JPG';
+import photo7 from './photos/manado7.JPG';
+import photo8 from './photos/manado8.JPG';
+import photo9 from './photos/manado9.JPG';
+import photo10 from './photos/manado10.JPG';
+import photo11 from './photos/manado11.JPG';
+import photo12 from './photos/manado12.JPG';
 
 export default function Manado() {
   return (
     <>
       <Header
-        photo={photo1}
+        photo={photo6}
         HCname="Manado House Church"
         description="If you want to fight for our rights, DANCE and make TikToks,
         get front row, VIP access to THE best piano recitals, go on random tangents..
@@ -28,11 +28,11 @@ export default function Manado() {
         extra special ingredients like marshmallows and spam chunks too but it somehow tastes
         so good by the love of Christ! So come join Manado HC!"
         shepPhoto1={shep}
-        shepName1="Christine Lee"
-        shepSchool1="Rice 2023"
+        shepName1="Jeffery Huang"
+        shepSchool1="Rice 2025"
         shepMajor1="Computer Science"
-        shepMessenger1="https://www.facebook.com/cl.supernova15 "
-        shepEmail1="mailto:cl115@rice.edu"
+        shepMessenger1="https://www.facebook.com/profile.php?id=100009285341146 "
+        shepEmail1="mailto:jh147@rice.edu"
       />
       <PhotoGallery
         photo1={photo1}

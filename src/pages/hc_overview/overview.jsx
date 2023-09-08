@@ -3,17 +3,25 @@ import './overview.css';
 import LeafImageContainerFaceRight from '../../shared-components/leafImageContainerFaceRight';
 import HousechurchCard from '../../shared-components/housechurchCard';
 import TestimonyCard from '../../shared-components/testimonyCard';
-import Anatolia from './images/Anatolia.jpg';
-import CentralJapan from './images/CentralJapan.jpg';
-import CMU from './images/CMU1.jpg';
-import Laos from './images/Laos1.jpg';
-import Manado from './images/MANADO_3.JPG';
-import Mongolia from './images/Mongolia7.jpg';
-import NA from './images/NA2.JPG';
-import SA from './images/SA.JPG';
-import Phnom from './images/PhnomPenh7.jpg';
-import Siem from './images/SiemReap.JPG';
-import Tunisia from './images/Tunisia1.jpg';
+
+import Anatolia from './images/anatolia_overview.jpg';
+import CMU from './images/cmu_overview.jpg';
+import Laos from './images/laos_overview.jpeg';
+import Manado from './images/manado_overview.jpg';
+import Mongolia from './images/mongolia_overview.jpg';
+import NorthAfrica from './images/nahc_overview.jpg';
+import Lahu from './images/lahu_overview.jpg';
+import Phnom from './images/pphc_overview.jpg';
+import Siem from './images/srhc_overview.jpg';
+import Tunisia from './images/tunisia_overview.jpg';
+import AMhat from './images/amhat_overview.jpg';
+import NorthEgypt from './images/nehc_overview.jpg';
+import Delhi from './images/delhi_overview.jpg';
+import Hyderabad from './images/hyderabad_overview.jpg';
+import Kyrgyzstan from './images/kyrgyzstan_overview.jpg';
+import Indonesia from './images/indonesia_overview.jpeg';
+import JacobLee from './images/jacob_overview.jpg';
+
 import overview from './images/overview.jpg';
 
 export default function Overview() {
@@ -62,13 +70,20 @@ export default function Overview() {
         <p className="housechurch-h">House Churches</p>
         <div className="housechurch_grid">
           <HousechurchCard photo={Anatolia} HC="Anatolia" link="/anatolia" />
-          <HousechurchCard photo={CentralJapan} HC="Central Japan" link="/central_japan" />
-          <HousechurchCard photo={CMU} HC="CMU" link="/cmu" />
+          <HousechurchCard photo={AMhat} HC="A&M - Harris and Teresa" link="/A&M-hat" />
+          {/*<HousechurchCard photo={placeholder} HC="A&M - Ethan" link="/A&M-ethan" />*/}
+          <HousechurchCard photo={CMU} HC="Chiang Mai University" link="/cmu" />
+          <HousechurchCard photo={Delhi} HC="Delhi" link="/delhi" />
+          <HousechurchCard photo={Hyderabad} HC="Hyderabad" link="/hyderabad" />
+          <HousechurchCard photo={Indonesia} HC="Indonesia" link="/indonesia" />
+          <HousechurchCard photo={JacobLee} HC="Jacob Lee" link="/jacoblee" />
+          <HousechurchCard photo={Kyrgyzstan} HC="Kyrgyzstan" link="/kyrgyzstan" />
+          <HousechurchCard photo={Lahu} HC="Lahu Thailand" link="/lahu" />
           <HousechurchCard photo={Laos} HC="Laos" link="/laos" />
           <HousechurchCard photo={Manado} HC="Manado" link="/manado" />
           <HousechurchCard photo={Mongolia} HC="Mongolia" link="/mongolia" />
-          <HousechurchCard photo={SA} HC="Lahu" link="/lahu" />
-          <HousechurchCard photo={NA} HC="North Africa" link="/north_africa" />
+          <HousechurchCard photo={NorthAfrica} HC="North Africa" link="/north_africa" />
+          <HousechurchCard photo={NorthEgypt} HC="North Egypt" link="/north_egypt" />
           <HousechurchCard photo={Phnom} HC="Phnom Penh" link="/phnom_penh" />
           <HousechurchCard photo={Siem} HC="Siem Reap" link="/siem_reap" />
           <HousechurchCard photo={Tunisia} HC="Tunisia" link="/tunisia" />

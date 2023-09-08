@@ -27,6 +27,15 @@ import NAHC from "./pages/hc_pages/nahc/north_africa";
 import PhnomPenh from "./pages/hc_pages/phnom_penh/phnom_penh";
 import SiemReap from "./pages/hc_pages/siem_reap/siem_reap";
 import Tunisia from "./pages/hc_pages/tunisia/tunisia";
+import NorthEgypt from "./pages/hc_pages/north_egypt/north_egypt";
+import Indonesia from "./pages/hc_pages/indonesia/indonesia";
+import Delhi from "./pages/hc_pages/delhi/delhi";
+import Kyrgyzstan from "./pages/hc_pages/kyrgyzstan/kyrgyzstan";
+import Hyderabad from "./pages/hc_pages/hyderabad/hydrabad";
+import AMhat from "./pages/hc_pages/amhat/amhat";
+import Jacob from "./pages/hc_pages/jacob/jacob";
+import AMe from "./pages/hc_pages/ame/ame";
+
 // import { FooterContainer } from './containers/footer'
 
 export default function App() {
@@ -56,6 +65,15 @@ export default function App() {
           <Route path="/phnom_penh" element={<PhnomPenh />} />
           <Route path="/siem_reap" element={<SiemReap />} />
           <Route path="/tunisia" element={<Tunisia />} />
+          <Route path="/north_egypt" element={<NorthEgypt />} />
+          <Route path="/indonesia" element={<Indonesia />} />
+          <Route path="/delhi" element={<Delhi />} />
+          <Route path="/kyrgyzstan" element={<Kyrgyzstan />} />
+          <Route path="/hyderabad" element={<Hyderabad />} />
+          <Route path="/A&M-hat" element={<AMhat />} />
+          <Route path="/jacoblee" element={<Jacob />} />
+          {/*<Route path="/A&M-ethan" element={<AMe />} />*/}
+
         </Routes>
         <Footer />
       </Router>

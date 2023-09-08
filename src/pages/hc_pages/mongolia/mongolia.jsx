@@ -1,8 +1,9 @@
 import React from 'react';
 
-import Header from '../shared/header';
+import Header2 from '../shared/header2';
 import PhotoGallery from '../shared/photo_gallery';
-import shep from './photos/shep.jpeg';
+import shep1 from './photos/shep1.jpg';
+import shep2 from './photos/shep2.jpg';
 import photo1 from './photos/Mongolia1.jpg';
 import photo2 from './photos/Mongolia2.jpg';
 import photo3 from './photos/Mongolia3.jpg';
@@ -20,22 +21,26 @@ import photo12 from './photos/Mongolia14.jpg';
 export default function Mongolia() {
   return (
     <>
-      <Header
+      <Header2
         photo={photo1}
         HCname="Mongolia House Church"
-        description="Mongolia is the strongest House Church! Outside of the church and the classroom, 
-        you can find many of our members at the gym, staying fit :) However, more than physical strength, 
-        our house church is devoted to growing stronger in our walk with the Lord through prayer and fellowship. 
-        We love hanging out together and learning to trust God by encouraging one another and lifting each other 
-        up. Come visit Mongolia HC for a good laugh, a good time of sharing, and a place of spiritual rest; 
-        we’d love to have you :) 1 Timothy 4:8: “For physical training is of some value, but godliness has 
-        value for all things, holding promise for both the present life and the life to come."
-        shepPhoto1={shep}
-        shepName1="Aaron Lin"
-        shepSchool1="Rice 2023"
-        shepMajor1="Biochemistry and Cell Biology, ROTC"
-        shepMessenger1="https://www.facebook.com/aaron1in"
-        shepEmail1="mailto:aaron.lin@rice.edu"
+        description="Mongolia is a gentle and loving family of 4 girls and 3 guys. 
+        We might seem shy at first, but once you get to know us you’ll discover our humor:) 
+        Join us for deep convos, picnics at Hermann park, ice skating and more! We can’t wait to love God together with you.
+        "
+        shepPhoto1={shep1}
+        shepName1="Tyler Braito"
+        shepSchool1="Rice 2024"
+        shepMajor1="Linguistics"
+        shepMessenger1="https://www.facebook.com/profile.php?id=100013129029799"
+        shepEmail1="mailto:ttb2@rice.edu"
+
+        shepPhoto2={shep2}
+        shepName2="Oriana Tang"
+        shepSchool2="Rice 2025"
+        shepMajor2="Neuroscience"
+        shepMessenger2="https://www.facebook.com/oreoreo03"
+        shepEmail2="mailto:ot11@rice.edu"
       />
       <PhotoGallery
         photo1={photo1}

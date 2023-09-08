@@ -25,7 +25,7 @@ export default function Header(props) {
           <p className="hc-header-description">{description}</p>
         </div>
         <div className="shep-container">
-          <p className="hc-header-description">Shepherds:</p>
+          <p className="hc-header-description">Shepherd:</p>
           <div className="shep-flex">
             <ShepCard
               photo={shepPhoto1}

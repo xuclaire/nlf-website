@@ -19,7 +19,7 @@ function Events() {
             <h1>Events</h1>
           </div>
           <p className="header_details">
-            Text ____ to 81010 or click the button below to be<br></br>notified of upcoming events.
+            Click the button below to be<br></br>notified of upcoming events.
           </p>
           <a href="https://www.remind.com/join/nlfco" target="_blank" rel="noreferrer">
             <button>Keep me updated!</button>
@@ -27,7 +27,7 @@ function Events() {
         </div>
         <LeafImageContainerFaceRight photo={img} />
       </div>
-      <div className="calendar_embed" style={{ height: '650px'}}>
+      <div className="calendar_embed" style={{ height: '650px' }}>
         <ReactEmbeddedGoogleCalendar publicUrl={url} />
       </div>
       <div className="beige_container">

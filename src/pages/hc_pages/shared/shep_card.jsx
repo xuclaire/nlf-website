@@ -16,7 +16,7 @@ function ShepCard(props) {
   return (
     <div className="shep-card-shell">
       <div>
-        <img className="shep-image" src={photo}/>
+        <img className="shep-image" src={photo} />
       </div>
       <div className="shep-description">
         <p className="shep-name">{name}</p>
@@ -26,6 +26,7 @@ function ShepCard(props) {
           <a href={email} target="_blank" rel="noreferrer">
             <img src={emailIcon} />
           </a>
+
           <a href={fb} target="_blank" rel="noreferrer">
             <img src={fbIcon} />
           </a>

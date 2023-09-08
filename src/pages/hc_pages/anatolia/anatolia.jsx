@@ -2,41 +2,37 @@ import React from 'react';
 
 import Header from '../shared/header';
 import PhotoGallery from '../shared/photo_gallery';
-import shep from './photos/shep.jpg';
-import photo1 from './photos/Anatolia1.jpg';
-import photo2 from './photos/Anatolia13.JPEG';
-import photo3 from './photos/Anatolia3.jpeg';
-import photo4 from './photos/Anatolia14.jpg';
-import photo5 from './photos/Anatolia5.JPG';
-import photo6 from './photos/Anatolia6.jpg';
-import photo7 from './photos/Anatolia7.jpg';
-import photo8 from './photos/Anatolia8.jpg';
-import photo9 from './photos/Anatolia15.jpg';
-import photo10 from './photos/Anatolia10.jpg';
-import photo11 from './photos/Anatolia11.jpg';
-import photo12 from './photos/Anatolia12.jpg';
-import main from './photos/main.jpg';
+import shep from './photos/shep1.jpeg';
+import photo1 from './photos/anatolia1.JPG';
+import photo2 from './photos/anatolia2.JPG';
+import photo3 from './photos/anatolia3.JPG';
+import photo4 from './photos/anatolia4.jpg';
+import photo5 from './photos/anatolia5.jpg';
+import photo6 from './photos/anatolia6.JPG';
+import photo7 from './photos/anatolia7.JPG';
+import photo8 from './photos/anatolia8.JPG';
+import photo9 from './photos/anatolia9.JPG';
+import photo10 from './photos/anatolia10.JPEG';
+import photo11 from './photos/anatolia11.jpg';
+import photo12 from './photos/anatolia12.jpg';
 
 
 export default function Anatolia() {
   return (
     <>
       <Header
-        photo={main}
+        photo={photo1}
         HCname="Anatolia House Church"
-        description="Our members, except one or two (including the shepherd herself),
-      are among the kindest people you can find on the earth. Not only will you love
-      them at first sight, but the more you get to know them, the more you will see a
-      pure and loving heart inside each one. Anatolia is not just a Christian group.
-      Instead, it’s a home where everyone can find comfort and rest. Home is where our
-      family is, and yes, we are a family, bound by the divine love of God. Welcome to
-      visit us and join us!"
+        description="Welcome to Anatolia, the most introverted HC!
+             (jkjk.. not) Filled with the most iconic personalities across Rice majors, Anatolia has 7 girls and 6 guys. 
+             Come visit and stay for nights filled with boba runs, great off topic convos, attempts at learning K-pop dances, ~chill vibes~, 
+            and most of all learning about who Jesus is together!"
         shepPhoto1={shep}
-        shepName1="Cici Du"
-        shepSchool1="Rice 2023"
-        shepMajor1="Statistics + Cognitive Science, Minor in Data Science"
-        shepMessenger1="https://www.facebook.com/cici.du.33"
-        shepEmail1="mailto:sd80@rice.edu"
+        shepName1="Teresa Chin"
+        shepSchool1="Rice 2025"
+        shepMajor1="Neuroscience"
+        shepMessenger1="https://www.facebook.com/teresa.chin.35977"
+        shepEmail1="mailto:tvc1@rice.edu"
       />
       <PhotoGallery
         photo1={photo1}

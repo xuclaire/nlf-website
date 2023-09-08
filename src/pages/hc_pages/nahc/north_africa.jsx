@@ -2,36 +2,33 @@ import React from 'react';
 
 import Header from '../shared/header';
 import PhotoGallery from '../shared/photo_gallery';
-import shep from './photos/shep.jpg';
-import photo1 from './photos/NAHC1.jpg';
-import photo2 from './photos/NAHC2.jpg';
-import photo3 from './photos/NAHC3.jpg';
-import photo4 from './photos/NAHC4.jpg';
-import photo5 from './photos/NAHC5.jpg';
-import photo6 from './photos/NAHC6.jpg';
-import photo7 from './photos/NAHC7.jpg';
-import photo8 from './photos/NAHC8.jpg';
-import photo9 from './photos/NorthAfrica9.jpg';
-import photo10 from './photos/NorthAfrica10.jpeg';
-import photo11 from './photos/NorthAfrica11.jpeg';
-import photo12 from './photos/NorthAfrica12.JPG';
+import shep from './photos/shep1.jpg';
+import photo1 from './photos/nahc1.jpg';
+import photo2 from './photos/nahc2.jpg';
+import photo3 from './photos/nahc3.jpg';
+import photo4 from './photos/nahc4.jpg';
+import photo5 from './photos/nahc5.jpg';
+import photo6 from './photos/nahc6.jpg';
+import photo7 from './photos/nahc7.jpg';
+import photo8 from './photos/nahc8.jpg';
+import photo9 from './photos/nahc9.jpg';
+import photo10 from './photos/nahc10.jpg';
+import photo11 from './photos/nahc11.jpg';
+import photo12 from './photos/nahc12.jpg';
 
 export default function NorthAfrica() {
   return (
     <>
       <Header
-        photo={photo9}
+        photo={photo4}
         HCname="North Africa House Church"
-        description="We consist of 6 members, 1 female and 5 males
-        We are a family full of fun, quirky, and unique (very unique) personalities.
-        We have students from different campuses and in the surrounding Houston area (UH,
-        Lonestar, HCC, etc.) and college aged young adults who are working as well.
-        House church will mainly be hosted at people’s houses but sometimes on campus too.
+        description="North Africa House Church is currently home to 5 members (3 boys and 2 girls). We love to play board games, find places around the Houston area to eat, go on late
+        night boba runs, road trips, and more. Come join us for the food and fun and stay for the fellowship, growth, and Jesus.
         "
         shepPhoto1={shep}
         shepName1="Damian Andaya"
-        shepSchool1="U of H 2023"
-        shepMajor1="Computer Science + Math"
+        shepSchool1="University of Houston 2023"
+        shepMajor1="Computer Science, Minors in Mathematics and Chemistry"
         shepMessenger1="https://www.facebook.com/damian.hyunwoo"
         shepEmail1="mailto:fdandaya@gmail.com"
       />
