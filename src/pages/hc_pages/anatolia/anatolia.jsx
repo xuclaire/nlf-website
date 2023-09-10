@@ -3,18 +3,18 @@ import React from 'react';
 import Header from '../shared/header';
 import PhotoGallery from '../shared/photo_gallery';
 import shep from './photos/shep1.jpeg';
-import photo1 from './photos/anatolia1.JPG';
-import photo2 from './photos/anatolia2.JPG';
+import photo1 from './photos/Anatolia1.jpg';
+import photo2 from './photos/Anatolia2.jpg';
 import photo3 from './photos/anatolia3.JPG';
-import photo4 from './photos/anatolia4.jpg';
-import photo5 from './photos/anatolia5.jpg';
-import photo6 from './photos/anatolia6.JPG';
-import photo7 from './photos/anatolia7.JPG';
-import photo8 from './photos/anatolia8.JPG';
+import photo4 from './photos/Anatolia4.jpg';
+import photo5 from './photos/anatolia5.JPG';
+import photo6 from './photos/Anatolia6.jpg';
+import photo7 from './photos/Anatolia7.jpg';
+import photo8 from './photos/Anatolia8.jpg';
 import photo9 from './photos/anatolia9.JPG';
 import photo10 from './photos/anatolia10.JPEG';
-import photo11 from './photos/anatolia11.jpg';
-import photo12 from './photos/anatolia12.jpg';
+import photo11 from './photos/Anatolia11.jpg';
+import photo12 from './photos/Anatolia12.jpg';
 
 
 export default function Anatolia() {
