@@ -7,7 +7,7 @@ import photo1 from './photos/Anatolia1.jpg';
 import photo2 from './photos/Anatolia2.jpg';
 import photo3 from './photos/anatolia3.JPG';
 import photo4 from './photos/Anatolia4.jpg';
-import photo5 from './photos/anatolia5.JPG';
+import photo5 from './photos/Anatolia5.JPG';
 import photo6 from './photos/Anatolia6.jpg';
 import photo7 from './photos/Anatolia7.jpg';
 import photo8 from './photos/Anatolia8.jpg';
