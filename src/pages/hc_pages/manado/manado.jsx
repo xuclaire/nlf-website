@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../shared/header';
 import PhotoGallery from '../shared/photo_gallery';
 import shep from './photos/shep1.JPG';
-import photo1 from './photos/MANADO1.JPG
+import photo1 from './photos/MANADO1.JPG';
 import photo2 from './photos/MANADO2.JPG';
 import photo3 from './photos/MANADO3.JPG';
 import photo4 from './photos/MANADO4.JPG';
