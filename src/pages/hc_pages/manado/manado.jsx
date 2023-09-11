@@ -11,7 +11,7 @@ import photo5 from './photos/MANADO5.jpg';
 import photo6 from './photos/MANADO6.JPG';
 import photo7 from './photos/MANADO7.JPG';
 import photo8 from './photos/MANADO8.JPG';
-import photo9 from './photos/MANADO99.JPG';
+import photo9 from './photos/MANADO9.JPG';
 import photo10 from './photos/MANADO10.jpg';
 import photo11 from './photos/MANADO11.jpg';
 import photo12 from './photos/MANADO12.JPG';
