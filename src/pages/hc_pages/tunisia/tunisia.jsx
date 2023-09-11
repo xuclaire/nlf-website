@@ -4,18 +4,18 @@ import Header2 from '../shared/header2';
 import PhotoGallery from '../shared/photo_gallery';
 import shep1 from './photos/shep1.jpg';
 import shep2 from './photos/shep2.JPG';
-import photo1 from './photos/tunisia1.jpg';
-import photo2 from './photos/tunisia2.jpg';
-import photo3 from './photos/tunisia3.jpg';
-import photo4 from './photos/tunisia4.jpg';
-import photo5 from './photos/tunisia5.jpg';
-import photo6 from './photos/tunisia6.jpg';
-import photo7 from './photos/tunisia7.jpg';
-import photo8 from './photos/tunisia8.jpg';
-import photo9 from './photos/tunisia9.jpg';
-import photo10 from './photos/tunisia10.jpg';
-import photo11 from './photos/tunisia11.jpg';
-import photo12 from './photos/tunisia12.jpg';
+import photo1 from './photos/Tunisia1.jpg';
+import photo2 from './photos/Tunisia2.jpg';
+import photo3 from './photos/Tunisia3.JPG';
+import photo4 from './photos/Tunisia4.JPG';
+import photo5 from './photos/Tunisia5.JPG';
+import photo6 from './photos/Tunisia6.jpg';
+import photo7 from './photos/Tunisia7.jpg';
+import photo8 from './photos/Tunisia8.jpg';
+import photo9 from './photos/Tunisia9.jpg';
+import photo10 from './photos/Tunisia10.jpg';
+import photo11 from './photos/Tunisia11.JPG';
+import photo12 from './photos/Tunisia12.jpg';
 
 export default function Tunisia() {
   return (
