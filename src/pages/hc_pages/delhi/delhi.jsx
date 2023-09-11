@@ -15,7 +15,7 @@ import photo8 from './photos/delhi8.jpg';
 import photo9 from './photos/delhi9.jpg';
 import photo10 from './photos/delhi10.jpg';
 import photo11 from './photos/delhi11.jpg';
-import photo12 from './photos/delhi2.JPG';
+import photo12 from './photos/delhi12.JPG';
 
 export default function Delhi() {
   return (
