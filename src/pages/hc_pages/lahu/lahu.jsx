@@ -29,7 +29,7 @@ export default function Lahu() {
         In summary, we love and support each other as well as enjoy living life together!!! Join us and there will never be a dull moment, only a fulfilling moment :D"
         shepPhoto1={shep1}
         shepName1="Rachel Armstrong"
-        shepSchool1="Houston Community College"
+        shepSchool1=" "
         shepMajor1="Dental Hygiene"
         shepMessenger1="https://www.facebook.com/rachel.armstrong.52438"
         shepEmail1="mailto:i1abgr8@gmail.com"
