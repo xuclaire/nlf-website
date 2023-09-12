@@ -28,7 +28,7 @@ export default function EventsGrid() {
         <EventContainer
           photo={emp}
           event="EMP: Early Morning Prayer"
-          details="Mon-Friday | 7-8 am | Rice"
+          details="Mon-Fri | 7-8 am | Rice"
           description="Start your day with 45 minutes of individual meditation and prayer, followed by a group-led prayer and Bible reading."
         />
         <EventContainer
@@ -40,13 +40,13 @@ export default function EventsGrid() {
         <EventContainer
           photo={aya}
           event="AYA: As You Are"
-          details="2nd Wed of Every Odd Month | 7:15-10 pm | Rice"
+          details="2nd Wed of Odd Months | 7:15-10 pm | Rice"
           description="Gather at Rice’s Duncan PDR to praise God and and listen to relevant messages about college student life based on the Scriptures."
         />
         <EventContainer
           photo={jam}
           event="JAM: Jesus And Me"
-          details="2nd Wed of Every Even Month | 7-9 pm | Rice"
+          details="2nd Wed of Even Months | 7-9 pm | Rice"
           description="JAM is a time for people to come together to praise and worship God in an informal manner. Request your favorite songs, and let’s jam! "
         />
         <EventContainer
