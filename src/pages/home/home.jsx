@@ -51,13 +51,13 @@ function Home() {
           img={housechurch}
           description="We make disciples and model life with Christ through house church."
           button="Learn about House Church"
-          link="/overview"
+          link="overview"
         />
         <HomeCard
           img={getInvolved}
           description="Get connected to a representative to learn more about the ministry."
           button="Get Connected"
-          link="/get_connected"
+          link="get_connected"
         />
         <HomeCard
           img={ride}
