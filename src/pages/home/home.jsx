@@ -63,7 +63,7 @@ function Home() {
           img={ride}
           description="We'll arrange rides for you to church on Sunday for corporate worship."
           button="Sign-up for a Ride to Church"
-          link="/home"
+          link="https://forms.gle/afLhCvm8wNhjBLpA8"
         />
       </div>
       <div className="beige_container">
