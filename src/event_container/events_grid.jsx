@@ -40,7 +40,7 @@ export default function EventsGrid() {
         <EventContainer
           photo={aya}
           event="AYA: As You Are"
-          details="2nd Wed of Odd Months | 7:15-10 pm | Rice"
+          details="2nd Wed of Odd Months | 7:15-9 pm | Rice"
           description="Gather at Rice’s Duncan PDR to praise God and and listen to relevant messages about college student life based on the Scriptures."
         />
         <EventContainer
