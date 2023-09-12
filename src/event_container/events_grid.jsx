@@ -28,7 +28,7 @@ export default function EventsGrid() {
         <EventContainer
           photo={emp}
           event="EMP: Early Morning Prayer"
-          details="Mon-Sat | 7-8 am | Rice"
+          details="Mon-Friday | 7-8 am | Rice"
           description="Start your day with 45 minutes of individual meditation and prayer, followed by a group-led prayer and Bible reading."
         />
         <EventContainer
@@ -40,19 +40,19 @@ export default function EventsGrid() {
         <EventContainer
           photo={aya}
           event="AYA: As You Are"
-          details="2nd Wed of Month | 7:15-10 pm | Rice"
+          details="2nd Wed of Every Even Month | 7:15-10 pm | Rice"
           description="Gather at Rice’s Duncan PDR to praise God and and listen to relevant messages about college student life based on the Scriptures."
         />
         <EventContainer
           photo={jam}
           event="JAM: Jesus And Me"
-          details="4th Wed of Month | 7-9 pm | U of H"
+          details="2nd Wed of Every Even Month | 7-9 pm | Rice"
           description="JAM is a time for people to come together to praise and worship God in an informal manner. Request your favorite songs, and let’s jam! "
         />
         <EventContainer
           photo={retreat}
-          event="College Retreat"
-          details="Feb 24-26 | Retreat Center"
+          event="Fall Retreat"
+          details="Nov 10 - Nov 12 | Camp Allen"
           description="Get connected with other college students and other New Life  members for a time of fellowship and feeling renewed in Christ!"
         />
       </div>
