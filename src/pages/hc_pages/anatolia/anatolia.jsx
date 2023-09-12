@@ -23,13 +23,13 @@ export default function Anatolia() {
       <Header
         photo={photo1}
         HCname="Anatolia House Church"
-        description="Welcome to Anatolia, the most introverted HC!
-             (jkjk.. not) Filled with the most iconic personalities across Rice majors, Anatolia has 7 girls and 6 guys. 
-             Come visit and stay for nights filled with boba runs, great off topic convos, attempts at learning K-pop dances, ~chill vibes~, 
-            and most of all learning about who Jesus is together!"
+        description="Welcome to Anatolia, the most introverted HC! (jkjk.. not) 
+        Filled with the most iconic personalities across Rice majors, Anatolia has 5 girls and 6 guys. 
+        Come visit and stay for nights filled with massages, boba runs, great off topic convos, attempts at learning K-pop dances, ~chill vibes~, and most of all learning about who Jesus is together!
+"
         shepPhoto1={shep}
         shepName1="Teresa Chin"
-        shepSchool1="Rice 2025"
+        shepSchool1="Rice 2024"
         shepMajor1="Neuroscience"
         shepMessenger1="https://www.facebook.com/teresa.chin.35977"
         shepEmail1="mailto:tvc1@rice.edu"
